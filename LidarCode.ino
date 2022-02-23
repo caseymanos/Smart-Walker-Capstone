@@ -34,11 +34,11 @@ int16_t leftLidarTemp = 0;
 int16_t rightLidarTemp = 0;
 
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(115200); // terminal serial
   delay(20);
 
-  leftLidar.begin(&Serial2); // initialize serial
+  leftLidarSerial.begin(9600); // initialize serial
+  rightLidarSerial.begin(9600); // initialize serial
 }
 
 void loop() {
