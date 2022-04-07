@@ -344,6 +344,13 @@ void objectDetection(int leftDistances[], int rightDistances[]){
    *  index 4 = Lidar
   */
 
+  // print statements for debugging
+  for (int i; i<5; i++){
+    Serial.print("Index "+i);
+    Serial.println(" left distance = "+ leftDistances[i]);
+    Serial.println(" right distance = "+ rightDistances[i]);
+  }
+ 
   /* Change min and max distances to arrays corresponding with each dist array value
   ie minDist[2] = min dist for upper ir
   */
@@ -357,7 +364,7 @@ void objectDetection(int leftDistances[], int rightDistances[]){
   maxDist[1]=40; // ToF
   maxDist[2]=40; // Upper IR
   maxDist[3]=40; // Lower IR
-  maxDist[4]=30; // Lidar
+  maxDist[4]=50; // Lidar
 
   // Determine motor strength by number of sensors detecting objects
   leftPower=0;
