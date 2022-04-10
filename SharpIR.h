@@ -7,22 +7,19 @@
 
 #include <Arduino.h>
 #include <math.h>
+#define WINDOW_SIZE 10
 
 class SharpIR
 	{
 		public:
 
 			using sensorCode = const uint8_t ;
-
+			int index;
+			int sum;
+			int readings[WINDOW_SIZE];
 			SharpIR( sensorCode _sensorType , uint8_t _sensorPin ) : sensorType( _sensorType ) , pin( _sensorPin ) {}
 
-			float getDistance(int voltage, bool avoidBurstRead = true);
-
-			// correction formulas
-			//float correctA0(float distance, int voltage);
-			//float correctA1(float distance, int voltage);
-			//float correctA2(float distance, int voltage);
-			//float correctA3(float distance, int voltage);
+			int getDistance(bool avoidBurstRead = true);
 
 			static sensorCode GP2Y0A41SK0F = 0 ;
 			static sensorCode GP2Y0A21YK0F = 1 ;

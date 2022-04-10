@@ -2,8 +2,12 @@
 // EDIT (4/3): changed uint8_t to float for more precision in values 
 // EDIT (4/3): included functions to create more accurate readings
 // EDIT (4/5): moved correction formulas to Arduino code
-float SharpIR::getDistance( int voltage, bool avoidBurstRead) {
-		float distance ;
+// EDIT (4/9): i made getDist() contin ue to return as type in
+//			   but now it returns mm instead of cm distance
+int SharpIR::getDistance(bool avoidBurstRead) {
+		int distance;
+		float averaged;
+		int voltage;
 
 		if( !avoidBurstRead ) while( millis() <= lastTime + 20 ) {} //wait for sensor's sampling time
 
@@ -31,12 +35,17 @@ float SharpIR::getDistance( int voltage, bool avoidBurstRead) {
 				break;
 
 			case GP2Y0A02YK0F :
-				//distance = 9462/(analogRead(pin)-16.92);
-				// each sensor gets its own filter to make the distance readings more accurate
-				distance = 9462/(voltage - 16.92);
-				if(distance > 150) return 151;
+				sum = sum - readings[index];
+				voltage = analogRead(pin);
+				readings[index] = voltage;
+				sum = sum + voltage;
+				index = (index + 1) % WINDOW_SIZE;
+				averaged = sum / WINDOW_SIZE;
+
+				distance = 9462/(averaged - 16.92) * 100;
+				if(distance > 15000) return 15100;
 				else if(distance < 20) return 19;
-				else return distance;
+				else return (int)distance;
 
 				break;
 		}
