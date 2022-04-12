@@ -73,7 +73,7 @@
   
   /* arrays to hold left and right distances (all in cm)
    *  index 0 = Ultrasonic
-  *  index 1 = Tof
+   *  index 1 = Tof
    *  index 2 = Upper IR
    *  index 3 = Lower IR
    *  index 4 = Lidar
@@ -117,7 +117,7 @@ void setup() {
   delay(50);
   leftTof.setTimeout(500);
   while(!leftTof.init()) {
-    Serial.println("Failed to detect and initialize left sensor");
+    //Serial.println("Failed to detect and initialize left sensor");
   }
   Serial.println("Left sensor initialized.");
   leftTof.setAddress(0x2A);
@@ -128,7 +128,7 @@ void setup() {
   delay(10);
   rightTof.setTimeout(500);
   while(!rightTof.init()) {
-    Serial.println("Failed to detect and initialize right sensor");
+    //Serial.println("Failed to detect and initialize right sensor");
   }
   Serial.println("Right sensor initialized.");
   rightTof.setAddress(0x2B);
@@ -145,16 +145,15 @@ void setup() {
 }
 
 void loop() {
-
-    ultrasonicSensorCall(); 
-    infraredSensorCall();
-    ToFSensorCalls();
-    lidarSensorCall();
-    objectDetection(leftDistances, rightDistances);
-    leftMotorOutput(leftPower, lHall);
-    rightMotorOutput(rightPower, rHall);
-   delay(250);
-    
+  ultrasonicSensorCall(); 
+  infraredSensorCall();
+  ToFSensorCalls();
+  lidarSensorCall();
+  objectDetection(leftDistances, rightDistances);
+  leftMotorOutput(leftPower, lHall);
+  rightMotorOutput(rightPower, rHall);
+  Serial.println("\n");
+  delay(100); 
 }
 
 // find the smallest value within range of alerts
@@ -183,8 +182,7 @@ void ultrasonicSensorCall() {
       data_l = (byte)Serial1.read();
       chksum = (byte)Serial1.read();
 
-      if (chksum == ((hdr + data_h + data_l)&0x00FF))
-      {
+      if (chksum == ((hdr + data_h + data_l)&0x00FF)){
         Serial.print(hdr);
         Serial.print(",");
         Serial.print(data_h);
@@ -203,45 +201,23 @@ void ultrasonicSensorCall() {
         Serial.print(chksum, HEX);
         Serial.print(" => ");
   
-        ultraDist= data_h * 256 + data_l;
-        Serial.print(ultraDist, HEX);
-        Serial.print("=");
-        Serial.print(ultraDist/10, DEC);
-        Serial.println(" cm");
+        ultraDist = data_h * 256 + data_l;
+//        Serial.print(ultraDist, HEX);
+//        Serial.print("=");
+//        Serial.print(ultraDist/10, DEC);
+//        Serial.println(" cm");
       }
     }
   }
   leftDistances[0] = ultraDist/10;
   rightDistances[0] = ultraDist/10;
-  delay(100);
-    }
-
-
-
-
-// // process IR data
-//  upperLeftIrDist = upperLeftIr.getDistance();
-////  lowerLeftIrDist = lowerLeftIr.getDistance();
-//
-//  leftDistances[2] = upperLeftIrDist;
-//  Serial.print("Upperleft IR Distance: ");
-//  Serial.print(leftDistances[2]);
-//  Serial.println(" cm.");
-//  
-////  leftDistances[3] = lowerLeftIrDist;
-//  leftDistances[3] = 0;
-//  
-////  upperRightIrDist = upperRightIr.getDistance();
-////  lowerRightIrDist = lowerRightIr.getDistance();
-//
-////  rightDistances[2] = upperRightIrDist;
-////  rightDistances[3] = lowerRightIrDist;
-//
+  Serial.print("Ultrasonic Distance = ");
+  Serial.println(ultraDist/10);
+  delay(50);
+}
 
 // Infrared Analog call
  void infraredSensorCall() {
-  //unsigned long delay1=millis();  // takes the time before the loop on the library begins
-
   upperLeftIrDist = upperLeftIr.getDistance();
   lowerLeftIrDist = lowerLeftIr.getDistance();
   upperRightIrDist = upperRightIr.getDistance();
@@ -253,16 +229,13 @@ void ultrasonicSensorCall() {
   rightDistances[3] = lowerRightIrDist;
   
   Serial.print("upperLeftIR filtered distance: ");  // returns it to the serial monitor
-  Serial.print(upperLeftIrDist);
-  Serial.print("\t");
+  Serial.println(upperLeftIrDist);
 
   Serial.print("lowerLeftIR filtered distance: ");  // returns it to the serial monitor
-  Serial.print(lowerLeftIrDist);
-  Serial.print("\t");
+  Serial.println(lowerLeftIrDist);
   
   Serial.print("upperRightIR filtered distance: ");  // returns it to the serial monitor
-  Serial.print(upperRightIrDist);
-  Serial.print("\t");
+  Serial.println(upperRightIrDist);
   
   Serial.print("lowerRightIR filtered distance: ");  // returns it to the serial monitor
   Serial.println(lowerRightIrDist);
@@ -272,7 +245,6 @@ void ultrasonicSensorCall() {
 // ToF Sensor Call
 //Places cm distances of L and R tof arrays in main dist array
 void ToFSensorCalls(){
- 
   //Left sensor call
   leftTof.read();
   Serial.print("Left ToF range: ");
@@ -311,27 +283,41 @@ int16_t lidarRightDist = 0;
 int16_t lidarRightFlux = 0;    
 int16_t lidarRightTemp = 0;   
 
-  if( leftLidar.getData( lidarLeftDist, lidarLeftFlux, lidarLeftTemp)) // Get data from the device.
-      {
-        Serial.print( "Dist: ");
-        Serial.println(lidarLeftDist); // display distance,
-        leftDistances[4] = lidarLeftDist; // add distance to main array
-      }
-      else                  // If the command fails...
-      {
-        leftLidar.printFrame();  // display the error and HEX dataa
-      }
+  while(!leftLidar.getData( lidarLeftDist, lidarLeftFlux, lidarLeftTemp)) {
+    Serial.print("fail to sync left lidar");
+  }
+  Serial.print("Left lidar Dist: ");
+  Serial.println(lidarLeftDist); // display distance,
+  leftDistances[4] = lidarLeftDist; // add distance to main array
 
-  if( rightLidar.getData( lidarRightDist, lidarRightFlux, lidarRightTemp)) // Get data from the device.
-      {
-       Serial.print( "Dist: ");
-        Serial.println(lidarRightDist); // display distance,
-        rightDistances[4] = lidarRightDist;
-      }
-      else                  // If the command fails...
-      {
-        rightLidar.printFrame();  // display the error and HEX dataa
-      }
+//  while(!rightLidar.getData( lidarRightDist, lidarRightFlux, lidarRightTemp)) {
+//  Serial.print("fail to sync right lidar");
+//  }
+//       Serial.print("Right lidar Dist: ");
+//       Serial.println(lidarRightDist); // display distance,
+//       rightDistances[4] = lidarRightDist;
+
+//  if( leftLidar.getData( lidarLeftDist, lidarLeftFlux, lidarLeftTemp)) // Get data from the device.
+//      {
+//        Serial.print("Left lidar Dist: ");
+//        Serial.println(lidarLeftDist); // display distance,
+//        leftDistances[4] = lidarLeftDist; // add distance to main array
+//      }
+//      else                  // If the command fails...
+//      {
+//        leftLidar.printFrame();  // display the error and HEX data
+//      }
+//
+//  if( rightLidar.getData( lidarRightDist, lidarRightFlux, lidarRightTemp)) // Get data from the device.
+//      {
+//       Serial.print("Right lidar Dist: ");
+//        Serial.println(lidarRightDist); // display distance,
+//        rightDistances[4] = lidarRightDist;
+//      }
+//      else                  // If the command fails...
+//      {
+//        rightLidar.printFrame();  // display the error and HEX dataa
+//      }
  }
 
 void objectDetection(int leftDistances[], int rightDistances[]){
@@ -342,13 +328,6 @@ void objectDetection(int leftDistances[], int rightDistances[]){
    *  index 3 = Lower IR
    *  index 4 = Lidar
   */
-
-  // print statements for debugging
-  for (int i; i<5; i++){
-    Serial.print("Index "+i);
-    Serial.println(" left distance = "+ leftDistances[i]);
-    Serial.println(" right distance = "+ rightDistances[i]);
-  }
  
   /* Change min and max distances to arrays corresponding with each dist array value
   ie minDist[2] = min dist for upper ir
@@ -403,7 +382,7 @@ void objectDetection(int leftDistances[], int rightDistances[]){
 // in this function output from the left motor is produced based on objectDetection()
 // distance: the distance read by the sensor in cm
 // linear equation that evaluates the strength of the motors PWM = -7.9375*distance + 731.25 *old*
-void leftMotorOutput(int leftPower, bool lHall) {
+void leftMotorOutput(int leftPower, int lHall) {
     if (lHall){
       lHall = false;
       analogWrite(leftMotor, HIGH);
@@ -422,7 +401,7 @@ void leftMotorOutput(int leftPower, bool lHall) {
 // in this function output from the right motor is produced based on objectDetection()
 // distance: the distance read by the sensor in cm
 // linear equation that evaluates the strength of the motors PWM = -8.333*distance + 763 *old*
-void rightMotorOutput(int rightPower,bool rHall) {
+void rightMotorOutput(int rightPower,int rHall) {
       if (rHall){
       rHall = false;
       analogWrite(rightMotor, HIGH);
@@ -433,5 +412,22 @@ void rightMotorOutput(int rightPower,bool rHall) {
       delay(25);
       analogWrite(rightMotor, LOW);
     }
-  analogWrite(rightMotor, rightPower);
+  analogWrite(rightMotor, 255);
 }
+
+//// in this function output from the left motor is produced based on the distance reading from the sensors
+//// distance: the distance read by the sensor in cm
+//// linear equation that evaluates the strength of the motors PWM = -7.697*distance + 709.121  
+//  int PWM = 0;
+//  if (distance < 59 || distance > 92){
+//    analogWrite(leftMotor,PWM);
+//  } else {
+//    PWM = -7.697*distance + 709.121; 
+//    // int PWM = (-10 * distance - 760)/8.333; // inv of linear funct
+//    PWM = map(PWM, 1, 255, 1, 255); // map funct
+//    analogWrite(leftMotor, PWM);
+//  }
+//  Serial.print("PWM: ");
+//  Serial.print(PWM);
+//  Serial.println("\t");
+//}
