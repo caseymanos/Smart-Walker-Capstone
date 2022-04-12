@@ -1,0 +1,1135 @@
+13:18:55.136 -> ⸮L⸮⸮f⸮l("a⸮⸮b-DJ⸮⸮e⸮zh ⸮v-R-⸮⸮⸮⸮F&⸮⸮a⸮⸮b)DJ⸮⸮e⸮zhH
+13:18:55.136 -> )⸮⸮⸮HR⸮[&Q⸮<a]⸮⸮f@H⸮⸮⸮&⸮⸮⸮U
+B⸮D
+13:18:55.865 -> ⸮Beginning overall setup
+13:18:55.865 -> Ultrasonic set up.
+13:18:55.865 -> Beginning ToF setup
+13:18:55.898 -> Left sensor initialized.
+13:18:55.934 -> Right sensor initialized.
+13:18:56.996 -> Lidar Finished Setup
+13:18:56.996 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:18:57.017 -> upperLeftIR filtered distance: 15100
+13:18:57.017 -> lowerLeftIR filtered distance: 15100
+13:18:57.017 -> upperRightIR filtered distance: 6102
+13:18:57.017 -> lowerRightIR filtered distance: 1900
+13:18:57.052 -> Left ToF range: 860	status: range valid	peak signal: 6.00	ambient: 0.56
+13:18:57.052 -> Right ToF range: 880	status: range valid	peak signal: 4.59	ambient: 1.02
+13:18:57.052 -> Status: READY
+13:18:57.052 -> Data: 59 59 77 00 1B 0E 18 0A 74
+13:18:57.052 -> Left lidar Dist: 119
+13:18:57.124 -> 
+13:18:57.124 -> 
+13:18:57.234 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:18:57.281 -> upperLeftIR filtered distance: 11965
+13:18:57.281 -> lowerLeftIR filtered distance: 1900
+13:18:57.281 -> upperRightIR filtered distance: 2118
+13:18:57.281 -> lowerRightIR filtered distance: 1900
+13:18:57.281 -> Left ToF range: 857	status: range valid	peak signal: 6.28	ambient: 0.59
+13:18:57.281 -> Right ToF range: 880	status: range valid	peak signal: 4.52	ambient: 1.12
+13:18:57.310 -> Status: READY
+13:18:57.310 -> Data: 59 59 77 00 ED 0B 20 0A 4B
+13:18:57.310 -> Left lidar Dist: 119
+13:18:57.382 -> 
+13:18:57.382 -> 
+13:18:57.494 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:18:57.532 -> upperLeftIR filtered distance: 7445
+13:18:57.532 -> lowerLeftIR filtered distance: 15100
+13:18:57.532 -> upperRightIR filtered distance: 1900
+13:18:57.532 -> lowerRightIR filtered distance: 12791
+13:18:57.532 -> Left ToF range: 858	status: range valid	peak signal: 6.18	ambient: 0.60
+13:18:57.532 -> Right ToF range: 877	status: range valid	peak signal: 5.01	ambient: 1.09
+13:18:57.567 -> Status: READY
+13:18:57.567 -> Data: 59 59 77 00 25 0E 18 0A 7E
+13:18:57.567 -> Left lidar Dist: 119
+13:18:57.636 -> 
+13:18:57.636 -> 
+13:18:57.745 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:18:57.782 -> upperLeftIR filtered distance: 5435
+13:18:57.782 -> lowerLeftIR filtered distance: 15100
+13:18:57.782 -> upperRightIR filtered distance: 1900
+13:18:57.782 -> lowerRightIR filtered distance: 1900
+13:18:57.782 -> Left ToF range: 863	status: range valid	peak signal: 6.20	ambient: 0.60
+13:18:57.816 -> Right ToF range: 873	status: range valid	peak signal: 5.08	ambient: 1.08
+13:18:57.816 -> Status: CHECKSUM
+13:18:57.816 -> Data: 59 59 77 00 59 59 77 00 25
+13:18:57.816 -> Status: CHECKSUM
+13:18:57.816 -> Data: 59 59 77 00 01 06 00 08 08
+13:18:57.816 -> Status: CHECKSUM
+13:18:57.816 -> Data: 59 59 77 00 0C 0A 0A 05 52
+13:18:57.816 -> Status: CHECKSUM
+13:18:57.816 -> Data: 59 59 37 54 0E 14 01 52 53
+13:18:57.854 -> Status: CHECKSUM
+13:18:57.854 -> Data: 59 59 57 15 06 A4 10 52 4B
+13:18:57.854 -> Status: CHECKSUM
+13:18:57.854 -> Data: 59 59 27 00 0A 0A 48 08 52
+13:18:57.854 -> Status: CHECKSUM
+13:18:57.854 -> Data: 59 59 43 23 00 48 40 52 4F
+13:18:57.854 -> Status: CHECKSUM
+13:18:57.892 -> Data: 59 59 65 00 01 00 88 00 A4
+13:18:57.892 -> Status: CHECKSUM
+13:18:57.892 -> Data: 59 59 51 00 20 00 08 0A 20
+13:18:57.892 -> Status: CHECKSUM
+13:18:57.892 -> Data: 59 59 24 00 03 00 50 4F 59
+13:18:57.932 -> Status: CHECKSUM
+13:18:57.932 -> Data: 59 59 55 00 01 08 00 40 4A
+13:18:57.959 -> Status: CHECKSUM
+13:18:57.959 -> Data: 59 59 51 00 00 02 08 00 02
+13:18:58.031 -> Status: CHECKSUM
+13:18:58.031 -> Data: 59 59 77 00 27 0A 00 0A 00
+13:18:58.099 -> Status: CHECKSUM
+13:18:58.099 -> Data: 59 59 51 00 00 00 00 08 00
+13:18:58.133 -> Status: CHECKSUM
+13:18:58.133 -> Data: 59 59 56 00 49 00 02 90 C8
+13:18:58.166 -> Status: CHECKSUM
+13:18:58.166 -> Data: 59 59 02 2A 00 A0 83 59 59
+13:18:58.166 -> Status: CHECKSUM
+13:18:58.166 -> Data: 59 59 65 00 D4 01 40 A4 86
+13:18:58.200 -> Status: CHECKSUM
+13:18:58.200 -> Data: 59 59 17 00 75 01 00 10 0A
+13:18:58.200 -> Status: CHECKSUM
+13:18:58.200 -> Data: 59 59 27 00 EA 0B 40 08 A4
+13:18:58.238 -> Status: CHECKSUM
+13:18:58.238 -> Data: 59 59 56 03 20 A4 81 59 59
+13:18:58.238 -> Status: CHECKSUM
+13:18:58.238 -> Data: 59 59 77 00 A0 0B 02 30 0A
+13:18:58.238 -> Status: CHECKSUM
+13:18:58.238 -> Data: 59 59 77 00 B2 0A 00 02 10
+13:18:58.238 -> Status: CHECKSUM
+13:18:58.238 -> Data: 59 59 77 00 64 09 00 20 A4
+13:18:58.276 -> Status: READY
+13:18:58.276 -> Data: 59 59 77 00 65 81 01 08 18
+13:18:58.276 -> Left lidar Dist: 119
+13:18:58.352 -> 
+13:18:58.352 -> 
+13:18:58.428 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:18:58.495 -> upperLeftIR filtered distance: 4260
+13:18:58.495 -> lowerLeftIR filtered distance: 15000
+13:18:58.495 -> upperRightIR filtered distance: 15100
+13:18:58.495 -> lowerRightIR filtered distance: 1900
+13:18:58.495 -> Left ToF range: 862	status: range valid	peak signal: 6.16	ambient: 0.60
+13:18:58.495 -> Right ToF range: 868	status: range valid	peak signal: 4.94	ambient: 1.09
+13:18:58.533 -> Status: CHECKSUM
+13:18:58.533 -> Data: 59 59 77 59 59 77 00 F3 0B
+13:18:58.533 -> Status: CHECKSUM
+13:18:58.533 -> Data: 59 59 76 00 F5 0B 20 00 40
+13:18:58.533 -> Status: CHECKSUM
+13:18:58.533 -> Data: 59 59 76 00 F1 0B 20 0A 49
+13:18:58.533 -> Status: CHECKSUM
+13:18:58.533 -> Data: 59 59 77 00 EE 0B 20 0A 08
+13:18:58.571 -> Status: CHECKSUM
+13:18:58.571 -> Data: 59 59 76 00 F1 0B 20 0A 91
+13:18:58.571 -> Status: CHECKSUM
+13:18:58.571 -> Data: 59 59 76 00 ED 0B 20 0A 42
+13:18:58.571 -> Status: CHECKSUM
+13:18:58.571 -> Data: 59 59 77 00 F4 0B 20 0A 90
+13:18:58.571 -> Status: CHECKSUM
+13:18:58.571 -> Data: 59 59 77 00 F4 0B 20 0A 12
+13:18:58.605 -> Status: CHECKSUM
+13:18:58.605 -> Data: 59 59 77 00 F0 0B 20 0A 44
+13:18:58.605 -> Status: CHECKSUM
+13:18:58.605 -> Data: 59 59 77 00 EB 0B 20 0A 01
+13:18:58.605 -> Status: CHECKSUM
+13:18:58.605 -> Data: 59 59 77 00 ED 0B 20 0A 0B
+13:18:58.643 -> Status: READY
+13:18:58.643 -> Data: 59 59 77 00 F4 0B 20 0A 52
+13:18:58.643 -> Left lidar Dist: 119
+13:18:58.717 -> 
+13:18:58.717 -> 
+13:18:58.793 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:18:58.865 -> upperLeftIR filtered distance: 3503
+13:18:58.865 -> lowerLeftIR filtered distance: 12436
+13:18:58.865 -> upperRightIR filtered distance: 1900
+13:18:58.865 -> lowerRightIR filtered distance: 15100
+13:18:58.865 -> Left ToF range: 861	status: range valid	peak signal: 6.25	ambient: 0.60
+13:18:58.865 -> Right ToF range: 876	status: range valid	peak signal: 4.43	ambient: 1.13
+13:18:58.865 -> Status: CHECKSUM
+13:18:58.903 -> Data: 59 59 77 59 59 76 00 F0 0B
+13:18:58.903 -> Status: READY
+13:18:58.903 -> Data: 59 59 77 00 22 0E 18 0A 7B
+13:18:58.903 -> Left lidar Dist: 119
+13:18:58.974 -> 
+13:18:58.974 -> 
+13:18:59.050 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:18:59.126 -> upperLeftIR filtered distance: 2984
+13:18:59.126 -> lowerLeftIR filtered distance: 10275
+13:18:59.126 -> upperRightIR filtered distance: 1900
+13:18:59.126 -> lowerRightIR filtered distance: 15100
+13:18:59.126 -> Left ToF range: 856	status: range valid	peak signal: 6.12	ambient: 0.59
+13:18:59.126 -> Right ToF range: 873	status: range valid	peak signal: 4.47	ambient: 1.11
+13:18:59.126 -> Status: READY
+13:18:59.126 -> Data: 59 59 77 00 ED 0B 20 0A 4B
+13:18:59.126 -> Left lidar Dist: 119
+13:18:59.198 -> 
+13:18:59.198 -> 
+13:18:59.303 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:18:59.379 -> upperLeftIR filtered distance: 2591
+13:18:59.379 -> lowerLeftIR filtered distance: 8754
+13:18:59.379 -> upperRightIR filtered distance: 15100
+13:18:59.379 -> lowerRightIR filtered distance: 14319
+13:18:59.379 -> Left ToF range: 857	status: range valid	peak signal: 6.02	ambient: 0.60
+13:18:59.379 -> Right ToF range: 886	status: range valid	peak signal: 4.80	ambient: 1.09
+13:18:59.379 -> Status: READY
+13:18:59.379 -> Data: 59 59 76 00 F6 0B 20 0A 53
+13:18:59.379 -> Left lidar Dist: 118
+13:18:59.472 -> 
+13:18:59.472 -> 
+13:18:59.555 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:18:59.631 -> upperLeftIR filtered distance: 2296
+13:18:59.631 -> lowerLeftIR filtered distance: 7564
+13:18:59.631 -> upperRightIR filtered distance: 15100
+13:18:59.631 -> lowerRightIR filtered distance: 13127
+13:18:59.631 -> Left ToF range: 865	status: range valid	peak signal: 6.13	ambient: 0.60
+13:18:59.631 -> Right ToF range: 868	status: range valid	peak signal: 4.59	ambient: 1.10
+13:18:59.631 -> Status: READY
+13:18:59.631 -> Data: 59 59 77 00 F4 0B 20 0A 52
+13:18:59.631 -> Left lidar Dist: 119
+13:18:59.707 -> 
+13:18:59.707 -> 
+13:18:59.821 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:18:59.859 -> upperLeftIR filtered distance: 2056
+13:18:59.859 -> lowerLeftIR filtered distance: 6706
+13:18:59.912 -> upperRightIR filtered distance: 15100
+13:18:59.912 -> lowerRightIR filtered distance: 12118
+13:18:59.912 -> Left ToF range: 861	status: range valid	peak signal: 5.94	ambient: 0.62
+13:18:59.912 -> Right ToF range: 885	status: range valid	peak signal: 4.59	ambient: 1.12
+13:18:59.912 -> Status: READY
+13:18:59.912 -> Data: 59 59 77 00 F1 0B 20 0A 4F
+13:18:59.912 -> Left lidar Dist: 119
+13:18:59.969 -> 
+13:18:59.969 -> 
+13:19:00.083 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:00.120 -> upperLeftIR filtered distance: 2061
+13:19:00.120 -> lowerLeftIR filtered distance: 6754
+13:19:00.120 -> upperRightIR filtered distance: 15100
+13:19:00.120 -> lowerRightIR filtered distance: 10992
+13:19:00.158 -> Left ToF range: 857	status: range valid	peak signal: 6.11	ambient: 0.61
+13:19:00.158 -> Right ToF range: 877	status: range valid	peak signal: 4.91	ambient: 1.07
+13:19:00.158 -> Status: READY
+13:19:00.158 -> Data: 59 59 77 00 EC 0B 20 0A 4A
+13:19:00.158 -> Left lidar Dist: 119
+13:19:00.225 -> 
+13:19:00.225 -> 
+13:19:00.339 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:00.377 -> upperLeftIR filtered distance: 2061
+13:19:00.377 -> lowerLeftIR filtered distance: 6852
+13:19:00.377 -> upperRightIR filtered distance: 15100
+13:19:00.377 -> lowerRightIR filtered distance: 11527
+13:19:00.377 -> Left ToF range: 857	status: range valid	peak signal: 6.01	ambient: 0.60
+13:19:00.444 -> Right ToF range: 876	status: range valid	peak signal: 5.38	ambient: 1.05
+13:19:00.444 -> Status: READY
+13:19:00.444 -> Data: 59 59 77 00 21 0E 18 0A 7A
+13:19:00.444 -> Left lidar Dist: 119
+13:19:00.475 -> 
+13:19:00.475 -> 
+13:19:00.597 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:00.635 -> upperLeftIR filtered distance: 2061
+13:19:00.635 -> lowerLeftIR filtered distance: 7004
+13:19:00.635 -> upperRightIR filtered distance: 15100
+13:19:00.635 -> lowerRightIR filtered distance: 11669
+13:19:00.635 -> Left ToF range: 864	status: range valid	peak signal: 6.02	ambient: 0.60
+13:19:00.635 -> Right ToF range: 877	status: range valid	peak signal: 4.98	ambient: 1.10
+13:19:00.673 -> Status: READY
+13:19:00.673 -> Data: 59 59 76 00 F0 0B 20 0A 4D
+13:19:00.673 -> Left lidar Dist: 118
+13:19:00.745 -> 
+13:19:00.745 -> 
+13:19:00.817 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:00.893 -> upperLeftIR filtered distance: 2061
+13:19:00.893 -> lowerLeftIR filtered distance: 7110
+13:19:00.893 -> upperRightIR filtered distance: 15100
+13:19:00.893 -> lowerRightIR filtered distance: 11669
+13:19:00.893 -> Left ToF range: 859	status: range valid	peak signal: 6.27	ambient: 0.59
+13:19:00.893 -> Right ToF range: 877	status: range valid	peak signal: 4.98	ambient: 1.08
+13:19:00.893 -> Status: READY
+13:19:00.951 -> Data: 59 59 77 00 F4 0B 20 0A 52
+13:19:00.951 -> Left lidar Dist: 119
+13:19:00.976 -> 
+13:19:00.976 -> 
+13:19:01.078 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:01.150 -> upperLeftIR filtered distance: 2061
+13:19:01.150 -> lowerLeftIR filtered distance: 7218
+13:19:01.150 -> upperRightIR filtered distance: 15100
+13:19:01.150 -> lowerRightIR filtered distance: 11253
+13:19:01.150 -> Left ToF range: 863	status: range valid	peak signal: 5.98	ambient: 0.61
+13:19:01.150 -> Right ToF range: 883	status: range valid	peak signal: 5.19	ambient: 1.05
+13:19:01.150 -> Status: READY
+13:19:01.188 -> Data: 59 59 77 00 24 0E 18 0A 7D
+13:19:01.188 -> Left lidar Dist: 119
+13:19:01.260 -> 
+13:19:01.260 -> 
+13:19:01.336 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:01.412 -> upperLeftIR filtered distance: 2061
+13:19:01.412 -> lowerLeftIR filtered distance: 7110
+13:19:01.412 -> upperRightIR filtered distance: 15100
+13:19:01.412 -> lowerRightIR filtered distance: 10388
+13:19:01.412 -> Left ToF range: 851	status: range valid	peak signal: 5.97	ambient: 0.62
+13:19:01.412 -> Right ToF range: 877	status: range valid	peak signal: 4.64	ambient: 1.12
+13:19:01.412 -> Status: READY
+13:19:01.412 -> Data: 59 59 77 00 EC 0B 20 0A 4A
+13:19:01.412 -> Left lidar Dist: 119
+13:19:01.488 -> 
+13:19:01.488 -> 
+13:19:01.599 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:01.637 -> upperLeftIR filtered distance: 2061
+13:19:01.637 -> lowerLeftIR filtered distance: 7110
+13:19:01.670 -> upperRightIR filtered distance: 15100
+13:19:01.670 -> lowerRightIR filtered distance: 11669
+13:19:01.670 -> Left ToF range: 863	status: range valid	peak signal: 6.13	ambient: 0.60
+13:19:01.670 -> Right ToF range: 885	status: range valid	peak signal: 4.95	ambient: 1.09
+13:19:01.670 -> Status: READY
+13:19:01.670 -> Data: 59 59 77 00 24 0E 18 0A 7D
+13:19:01.670 -> Left lidar Dist: 119
+13:19:01.746 -> 
+13:19:01.746 -> 
+13:19:01.853 -> Ultrasonic Distance = 76
+13:19:01.891 -> upperLeftIR filtered distance: 2061
+13:19:01.891 -> lowerLeftIR filtered distance: 7110
+13:19:01.891 -> upperRightIR filtered distance: 15100
+13:19:01.925 -> lowerRightIR filtered distance: 13311
+13:19:01.925 -> Left ToF range: 861	status: range valid	peak signal: 6.05	ambient: 0.66
+13:19:01.925 -> Right ToF range: 881	status: range valid	peak signal: 5.41	ambient: 1.13
+13:19:01.925 -> Status: READY
+13:19:01.925 -> Data: 59 59 77 00 1B 0E 18 0A 74
+13:19:01.925 -> Left lidar Dist: 119
+13:19:02.001 -> 
+13:19:02.001 -> 
+13:19:02.109 -> Ultrasonic Distance = 76
+13:19:02.146 -> upperLeftIR filtered distance: 2061
+13:19:02.146 -> lowerLeftIR filtered distance: 7163
+13:19:02.146 -> upperRightIR filtered distance: 15100
+13:19:02.146 -> lowerRightIR filtered distance: 12118
+13:19:02.146 -> Left ToF range: 862	status: range valid	peak signal: 6.07	ambient: 0.62
+13:19:02.184 -> Right ToF range: 871	status: range valid	peak signal: 5.09	ambient: 1.09
+13:19:02.184 -> Status: READY
+13:19:02.184 -> Data: 59 59 77 00 EB 0B 20 0A 49
+13:19:02.184 -> Left lidar Dist: 119
+13:19:02.261 -> 
+13:19:02.261 -> 
+13:19:02.364 -> Ultrasonic Distance = 76
+13:19:02.398 -> upperLeftIR filtered distance: 2061
+13:19:02.398 -> lowerLeftIR filtered distance: 7163
+13:19:02.398 -> upperRightIR filtered distance: 15100
+13:19:02.398 -> lowerRightIR filtered distance: 10865
+13:19:02.436 -> Left ToF range: 857	status: range valid	peak signal: 5.88	ambient: 0.62
+13:19:02.436 -> Right ToF range: 874	status: range valid	peak signal: 4.83	ambient: 1.09
+13:19:02.436 -> Status: READY
+13:19:02.436 -> Data: 59 59 77 00 ED 0B 20 0A 4B
+13:19:02.436 -> Left lidar Dist: 119
+13:19:02.512 -> 
+13:19:02.512 -> 
+13:19:02.623 -> Ultrasonic Distance = 76
+13:19:02.657 -> upperLeftIR filtered distance: 2061
+13:19:02.657 -> lowerLeftIR filtered distance: 7163
+13:19:02.657 -> upperRightIR filtered distance: 15100
+13:19:02.657 -> lowerRightIR filtered distance: 12275
+13:19:02.657 -> Left ToF range: 860	status: range valid	peak signal: 6.02	ambient: 0.60
+13:19:02.695 -> Right ToF range: 879	status: range valid	peak signal: 4.99	ambient: 1.10
+13:19:02.695 -> Status: READY
+13:19:02.695 -> Data: 59 59 77 00 23 0E 18 0A 7C
+13:19:02.695 -> Left lidar Dist: 119
+13:19:02.771 -> 
+13:19:02.771 -> 
+13:19:02.847 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:02.919 -> upperLeftIR filtered distance: 2061
+13:19:02.919 -> lowerLeftIR filtered distance: 7110
+13:19:02.919 -> upperRightIR filtered distance: 15100
+13:19:02.919 -> lowerRightIR filtered distance: 11253
+13:19:02.919 -> Left ToF range: 858	status: range valid	peak signal: 6.04	ambient: 0.59
+13:19:02.919 -> Right ToF range: 881	status: range valid	peak signal: 4.90	ambient: 1.08
+13:19:02.956 -> Status: READY
+13:19:02.956 -> Data: 59 59 77 00 1A 0E 18 0A 73
+13:19:02.956 -> Left lidar Dist: 119
+13:19:02.993 -> 
+13:19:02.993 -> 
+13:19:03.108 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:03.179 -> upperLeftIR filtered distance: 2061
+13:19:03.179 -> lowerLeftIR filtered distance: 7110
+13:19:03.179 -> upperRightIR filtered distance: 15100
+13:19:03.179 -> lowerRightIR filtered distance: 10621
+13:19:03.179 -> Left ToF range: 862	status: range valid	peak signal: 6.18	ambient: 0.61
+13:19:03.179 -> Right ToF range: 875	status: range valid	peak signal: 4.75	ambient: 1.08
+13:19:03.179 -> Status: READY
+13:19:03.179 -> Data: 59 59 78 00 21 0E 18 0A 7B
+13:19:03.179 -> Left lidar Dist: 120
+13:19:03.255 -> 
+13:19:03.255 -> 
+13:19:03.370 -> 255,2,252,=FF,2,FC,FD => Ultrasonic Distance = 76
+13:19:03.406 -> upperLeftIR filtered distance: 2061
+13:19:03.406 -> lowerLeftIR filtered distance: 7110
+13:19:03.444 -> upperRightIR filtered distance: 15100
+13:19:03.444 -> lowerRightIR filtered distance: 10742
+13:19:03.444 -> Left ToF range: 865	status: range valid	peak signal: 5.97	ambient: 0.62
+13:19:03.444 -> Right ToF range: 874	status: range valid	peak signal: 4.95	ambient: 1.09
+13:19:03.444 -> Status: READY
+13:19:03.444 -> Data: 59 59 77 00 EB 0B 20 0A 49
+13:19:03.444 -> Left lidar Dist: 119
+13:19:03.516 -> 
+13:19:03.516 -> 
+13:19:03.624 -> 255,2,252,=FF,2,FC,FD => Ultrasonic Distance = 76
+13:19:03.662 -> upperLeftIR filtered distance: 2061
+13:19:03.662 -> lowerLeftIR filtered distance: 7110
+13:19:03.662 -> upperRightIR filtered distance: 15100
+13:19:03.662 -> lowerRightIR filtered distance: 10503
+13:19:03.700 -> Left ToF range: 859	status: range valid	peak signal: 6.18	ambient: 0.59
+13:19:03.700 -> Right ToF range: 886	status: range valid	peak signal: 4.54	ambient: 1.12
+13:19:03.700 -> Status: READY
+13:19:03.700 -> Data: 59 59 77 00 1F 0E 18 0A 78
+13:19:03.700 -> Left lidar Dist: 119
+13:19:03.776 -> 
+13:19:03.776 -> 
+13:19:03.890 -> 255,2,252,=FF,2,FC,FD => Ultrasonic Distance = 76
+13:19:03.928 -> upperLeftIR filtered distance: 2038
+13:19:03.928 -> lowerLeftIR filtered distance: 7056
+13:19:03.928 -> upperRightIR filtered distance: 15100
+13:19:03.928 -> lowerRightIR filtered distance: 10503
+13:19:03.928 -> Left ToF range: 863	status: range valid	peak signal: 5.70	ambient: 0.63
+13:19:03.928 -> Right ToF range: 876	status: range valid	peak signal: 5.06	ambient: 1.07
+13:19:03.966 -> Status: READY
+13:19:03.966 -> Data: 59 59 77 00 F6 0B 20 0A 54
+13:19:03.966 -> Left lidar Dist: 119
+13:19:04.041 -> 
+13:19:04.041 -> 
+13:19:04.113 -> 255,2,252,=FF,2,FC,FD => Ultrasonic Distance = 76
+13:19:04.189 -> upperLeftIR filtered distance: 2038
+13:19:04.189 -> lowerLeftIR filtered distance: 7056
+13:19:04.189 -> upperRightIR filtered distance: 15100
+13:19:04.189 -> lowerRightIR filtered distance: 10165
+13:19:04.189 -> Left ToF range: 855	status: range valid	peak signal: 6.11	ambient: 0.60
+13:19:04.189 -> Right ToF range: 877	status: range valid	peak signal: 4.22	ambient: 1.14
+13:19:04.189 -> Status: READY
+13:19:04.189 -> Data: 59 59 77 00 23 0E 18 0A 7C
+13:19:04.223 -> Left lidar Dist: 119
+13:19:04.261 -> 
+13:19:04.261 -> 
+13:19:04.375 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:04.446 -> upperLeftIR filtered distance: 2038
+13:19:04.446 -> lowerLeftIR filtered distance: 7110
+13:19:04.446 -> upperRightIR filtered distance: 15100
+13:19:04.446 -> lowerRightIR filtered distance: 9746
+13:19:04.446 -> Left ToF range: 861	status: range valid	peak signal: 5.92	ambient: 0.62
+13:19:04.446 -> Right ToF range: 866	status: range valid	peak signal: 5.05	ambient: 1.05
+13:19:04.446 -> Status: READY
+13:19:04.446 -> Data: 59 59 77 00 20 0E 18 0A 79
+13:19:04.446 -> Left lidar Dist: 119
+13:19:04.514 -> 
+13:19:04.514 -> 
+13:19:04.621 -> 255,3,1,=FF,3,1,3 => Ultrasonic Distance = 76
+13:19:04.692 -> upperLeftIR filtered distance: 2038
+13:19:04.692 -> lowerLeftIR filtered distance: 7163
+13:19:04.692 -> upperRightIR filtered distance: 15100
+13:19:04.692 -> lowerRightIR filtered distance: 10275
+13:19:04.692 -> Left ToF range: 860	status: range valid	peak signal: 5.84	ambient: 0.62
+13:19:04.692 -> Right ToF range: 872	status: range valid	peak signal: 4.92	ambient: 1.09
+13:19:04.726 -> Status: READY
+13:19:04.726 -> Data: 59 59 77 00 23 0E 18 0A 7C
+13:19:04.726 -> Left lidar Dist: 119
+13:19:04.802 -> 
+13:19:04.802 -> 
+13:19:04.874 -> 255,3,1,=FF,3,1,3 => Ultrasonic Distance = 76
+13:19:04.946 -> upperLeftIR filtered distance: 2038
+13:19:04.946 -> lowerLeftIR filtered distance: 7273
+13:19:04.946 -> upperRightIR filtered distance: 15100
+13:19:04.946 -> lowerRightIR filtered distance: 10742
+13:19:04.946 -> Left ToF range: 860	status: range valid	peak signal: 6.19	ambient: 0.59
+13:19:04.946 -> Right ToF range: 879	status: range valid	peak signal: 4.41	ambient: 1.12
+13:19:04.946 -> Status: READY
+13:19:04.982 -> Data: 59 59 77 00 26 0E 18 0A 7F
+13:19:04.982 -> Left lidar Dist: 119
+13:19:05.058 -> 
+13:19:05.058 -> 
+13:19:05.130 -> 255,2,252,=FF,2,FC,FD => Ultrasonic Distance = 76
+13:19:05.202 -> upperLeftIR filtered distance: 2038
+13:19:05.202 -> lowerLeftIR filtered distance: 7273
+13:19:05.202 -> upperRightIR filtered distance: 15100
+13:19:05.202 -> lowerRightIR filtered distance: 10057
+13:19:05.202 -> Left ToF range: 861	status: range valid	peak signal: 5.84	ambient: 0.60
+13:19:05.202 -> Right ToF range: 872	status: range valid	peak signal: 5.24	ambient: 1.04
+13:19:05.202 -> Status: CHECKSUM
+13:19:05.236 -> Data: 59 59 77 00 1F 0E 10 02 58
+13:19:05.236 -> Status: CHECKSUM
+13:19:05.236 -> Data: 59 59 77 00 1B 0E 00 08 00
+13:19:05.236 -> Status: CHECKSUM
+13:19:05.236 -> Data: 59 59 77 00 24 0E 08 0A 02
+13:19:05.236 -> Status: CHECKSUM
+13:19:05.236 -> Data: 59 59 77 00 22 06 10 00 01
+13:19:05.269 -> Status: CHECKSUM
+13:19:05.269 -> Data: 59 59 77 00 26 04 00 08 01
+13:19:05.269 -> Status: CHECKSUM
+13:19:05.269 -> Data: 59 59 77 00 20 02 A0 00 EC
+13:19:05.269 -> Status: CHECKSUM
+13:19:05.269 -> Data: 59 59 77 00 25 18 10 14 00
+13:19:05.302 -> Status: CHECKSUM
+13:19:05.302 -> Data: 59 59 77 00 26 06 10 08 F4
+13:19:05.302 -> Status: CHECKSUM
+13:19:05.302 -> Data: 59 59 77 00 23 01 48 00 F0
+13:19:05.302 -> Status: CHECKSUM
+13:19:05.302 -> Data: 59 59 77 00 25 0A 08 0A EB
+13:19:05.336 -> Status: CHECKSUM
+13:19:05.336 -> Data: 59 59 77 00 03 01 04 E8 0B
+13:19:05.336 -> Status: CHECKSUM
+13:19:05.336 -> Data: 59 59 77 00 21 04 18 00 CE
+13:19:05.336 -> Status: CHECKSUM
+13:19:05.336 -> Data: 59 59 77 00 22 02 08 00 82
+13:19:05.336 -> Status: CHECKSUM
+13:19:05.336 -> Data: 59 59 77 00 06 00 00 F0 0B
+13:19:05.373 -> Status: CHECKSUM
+13:19:05.373 -> Data: 59 59 77 00 02 06 18 6F 08
+13:19:05.373 -> Status: CHECKSUM
+13:19:05.373 -> Data: 59 59 77 00 10 00 A0 20 0A
+13:19:05.373 -> Status: CHECKSUM
+13:19:05.373 -> Data: 59 59 77 00 22 0A 08 E8 0B
+13:19:05.373 -> Status: CHECKSUM
+13:19:05.373 -> Data: 59 59 77 00 40 08 A1 20 0A
+13:19:05.411 -> Status: CHECKSUM
+13:19:05.411 -> Data: 59 59 77 00 04 08 00 A8 08
+13:19:05.411 -> Status: CHECKSUM
+13:19:05.411 -> Data: 59 59 77 00 01 06 00 08 08
+13:19:05.411 -> Status: CHECKSUM
+13:19:05.411 -> Data: 59 59 77 00 0C 01 02 00 52
+13:19:05.411 -> Status: CHECKSUM
+13:19:05.411 -> Data: 59 59 37 02 0E 0A 20 52 51
+13:19:05.449 -> Status: CHECKSUM
+13:19:05.449 -> Data: 59 59 57 00 04 06 44 10 52
+13:19:05.449 -> Status: CHECKSUM
+13:19:05.449 -> Data: 59 59 27 00 25 08 90 00 20
+13:19:05.449 -> Status: CHECKSUM
+13:19:05.449 -> Data: 59 59 65 00 20 00 11 00 52
+13:19:05.487 -> Status: CHECKSUM
+13:19:05.487 -> Data: 59 59 32 18 00 24 52 4C 59
+13:19:05.487 -> Status: CHECKSUM
+13:19:05.487 -> Data: 59 59 56 00 05 18 02 52 4B
+13:19:05.559 -> Status: CHECKSUM
+13:19:05.559 -> Data: 59 59 51 00 00 0E 08 00 0A
+13:19:05.747 -> Status: CHECKSUM
+13:19:05.747 -> Data: 59 59 24 00 AB 00 A0 7F 59
+13:19:05.747 -> Status: CHECKSUM
+13:19:05.747 -> Data: 59 59 32 C4 00 00 48 88 FF
+13:19:05.747 -> Status: CHECKSUM
+13:19:05.747 -> Data: 59 59 43 00 AA 02 12 48 68
+13:19:05.786 -> Status: CHECKSUM
+13:19:05.786 -> Data: 59 59 17 00 75 01 00 A4 79
+13:19:05.786 -> Status: CHECKSUM
+13:19:05.786 -> Data: 59 59 57 DC 00 02 00 A4 87
+13:19:05.786 -> Status: CHECKSUM
+13:19:05.786 -> Data: 59 59 77 00 40 09 12 41 A4
+13:19:05.822 -> Status: CHECKSUM
+13:19:05.822 -> Data: 59 59 77 40 10 00 00 00 18
+13:19:05.822 -> Status: CHECKSUM
+13:19:05.822 -> Data: 59 59 77 00 51 03 00 00 00
+13:19:05.822 -> Status: CHECKSUM
+13:19:05.822 -> Data: 59 59 77 00 64 09 00 20 A4
+13:19:05.822 -> Status: CHECKSUM
+13:19:05.822 -> Data: 59 59 77 00 19 21 20 08 18
+13:19:05.855 -> Status: CHECKSUM
+13:19:05.855 -> Data: 59 59 77 00 20 01 00 00 00
+13:19:05.855 -> Status: CHECKSUM
+13:19:05.855 -> Data: 59 59 77 00 28 40 00 04 08
+13:19:05.855 -> Status: CHECKSUM
+13:19:05.855 -> Data: 59 59 77 00 46 02 00 49 08
+13:19:05.889 -> Status: CHECKSUM
+13:19:05.889 -> Data: 59 59 77 00 50 04 00 06 0E
+13:19:05.889 -> Status: CHECKSUM
+13:19:05.889 -> Data: 59 59 77 00 B0 02 20 00 40
+13:19:05.889 -> Status: CHECKSUM
+13:19:05.889 -> Data: 59 59 77 00 64 01 00 00 72
+13:19:05.889 -> Status: CHECKSUM
+13:19:05.889 -> Data: 59 59 77 00 87 01 20 00 20
+13:19:05.927 -> Status: CHECKSUM
+13:19:05.927 -> Data: 59 59 77 00 26 0A 20 01 20
+13:19:05.927 -> Status: CHECKSUM
+13:19:05.927 -> Data: 59 59 77 00 B1 01 12 E4 18
+13:19:05.927 -> Status: CHECKSUM
+13:19:05.927 -> Data: 59 59 77 00 72 02 00 08 20
+13:19:05.927 -> Status: CHECKSUM
+13:19:05.927 -> Data: 59 59 77 00 EA 09 00 02 00
+13:19:05.961 -> Status: CHECKSUM
+13:19:05.961 -> Data: 59 59 77 00 EC 00 40 08 00
+13:19:05.961 -> Status: CHECKSUM
+13:19:05.961 -> Data: 59 59 77 00 EF 0B 00 0A 00
+13:19:05.961 -> Status: CHECKSUM
+13:19:05.961 -> Data: 59 59 77 00 EF 03 00 00 05
+13:19:05.999 -> Status: CHECKSUM
+13:19:05.999 -> Data: 59 59 77 00 F4 0B 20 0A 00
+13:19:05.999 -> Status: CHECKSUM
+13:19:05.999 -> Data: 59 59 77 00 F6 0B 10 04 28
+13:19:05.999 -> Status: CHECKSUM
+13:19:05.999 -> Data: 59 59 77 00 EE 0B 00 02 4C
+13:19:05.999 -> Status: CHECKSUM
+13:19:05.999 -> Data: 59 59 77 00 F1 0B 00 08 47
+13:19:06.037 -> Status: CHECKSUM
+13:19:06.037 -> Data: 59 59 77 00 F3 0B 20 04 81
+13:19:06.037 -> Status: CHECKSUM
+13:19:06.037 -> Data: 59 59 77 00 EA 0B 00 0A 08
+13:19:06.037 -> Status: CHECKSUM
+13:19:06.037 -> Data: 59 59 76 00 F0 0B 20 00 48
+13:19:06.037 -> Status: CHECKSUM
+13:19:06.037 -> Data: 59 59 76 00 EF 0B 00 0A 40
+13:19:06.075 -> Status: CHECKSUM
+13:19:06.075 -> Data: 59 59 76 00 EF 0B 20 01 D8
+13:19:06.075 -> Status: CHECKSUM
+13:19:06.075 -> Data: 59 59 77 00 E5 0B 20 02 02
+13:19:06.075 -> Status: CHECKSUM
+13:19:06.075 -> Data: 59 59 77 00 F3 0B 20 08 51
+13:19:06.075 -> Status: CHECKSUM
+13:19:06.075 -> Data: 59 59 77 00 F3 0B 20 00 41
+13:19:06.113 -> Status: CHECKSUM
+13:19:06.113 -> Data: 59 59 77 00 F4 0B 20 0A 48
+13:19:06.113 -> Status: CHECKSUM
+13:19:06.113 -> Data: 59 59 77 00 EC 0B 20 02 00
+13:19:06.113 -> Status: CHECKSUM
+13:19:06.113 -> Data: 59 59 76 00 F5 0B 20 0A 94
+13:19:06.113 -> Status: CHECKSUM
+13:19:06.150 -> Data: 59 59 77 00 F3 0B 20 0A 00
+13:19:06.150 -> Status: CHECKSUM
+13:19:06.150 -> Data: 59 59 77 00 EE 0B 20 0A 0C
+13:19:06.150 -> Status: CHECKSUM
+13:19:06.150 -> Data: 59 59 77 00 F5 0B 20 0A 51
+13:19:06.150 -> Status: CHECKSUM
+13:19:06.150 -> Data: 59 59 77 00 EC 0B 20 0A 02
+13:19:06.187 -> Status: READY
+13:19:06.187 -> Data: 59 59 76 00 EC 0B 20 0A 49
+13:19:06.187 -> Left lidar Dist: 118
+13:19:06.258 -> 
+13:19:06.258 -> 
+13:19:06.334 -> 255,2,252,=FF,2,FC,FD => Ultrasonic Distance = 76
+13:19:06.410 -> upperLeftIR filtered distance: 2038
+13:19:06.410 -> lowerLeftIR filtered distance: 7330
+13:19:06.410 -> upperRightIR filtered distance: 15100
+13:19:06.410 -> lowerRightIR filtered distance: 11253
+13:19:06.410 -> Left ToF range: 857	status: range valid	peak signal: 6.35	ambient: 0.60
+13:19:06.410 -> Right ToF range: 872	status: range valid	peak signal: 4.70	ambient: 1.09
+13:19:06.410 -> Status: CHECKSUM
+13:19:06.410 -> Data: 59 59 77 00 59 59 76 00 EF
+13:19:06.448 -> Status: READY
+13:19:06.448 -> Data: 59 59 77 00 1E 0E 18 0A 77
+13:19:06.448 -> Left lidar Dist: 119
+13:19:06.524 -> 
+13:19:06.524 -> 
+13:19:06.600 -> 255,2,252,=FF,2,FC,FD => Ultrasonic Distance = 76
+13:19:06.667 -> upperLeftIR filtered distance: 2043
+13:19:06.667 -> lowerLeftIR filtered distance: 7273
+13:19:06.667 -> upperRightIR filtered distance: 15100
+13:19:06.667 -> lowerRightIR filtered distance: 12772
+13:19:06.667 -> Left ToF range: 858	status: range valid	peak signal: 5.92	ambient: 0.62
+13:19:06.667 -> Right ToF range: 874	status: range valid	peak signal: 5.24	ambient: 1.05
+13:19:06.667 -> Status: READY
+13:19:06.667 -> Data: 59 59 77 00 EF 0B 20 0A 4D
+13:19:06.667 -> Left lidar Dist: 119
+13:19:06.777 -> 
+13:19:06.777 -> 
+13:19:06.853 -> 255,2,252,=FF,2,FC,FD => Ultrasonic Distance = 76
+13:19:06.929 -> upperLeftIR filtered distance: 2043
+13:19:06.929 -> lowerLeftIR filtered distance: 7273
+13:19:06.929 -> upperRightIR filtered distance: 15100
+13:19:06.929 -> lowerRightIR filtered distance: 11815
+13:19:06.929 -> Left ToF range: 862	status: range valid	peak signal: 6.04	ambient: 0.61
+13:19:06.929 -> Right ToF range: 877	status: range valid	peak signal: 4.95	ambient: 1.07
+13:19:06.929 -> Status: READY
+13:19:06.929 -> Data: 59 59 77 00 EC 0B 20 0A 4A
+13:19:06.929 -> Left lidar Dist: 119
+13:19:06.996 -> 
+13:19:06.996 -> 
+13:19:07.110 -> 255,2,252,=FF,2,FC,FD => Ultrasonic Distance = 76
+13:19:07.177 -> upperLeftIR filtered distance: 2043
+13:19:07.177 -> lowerLeftIR filtered distance: 7218
+13:19:07.177 -> upperRightIR filtered distance: 15100
+13:19:07.177 -> lowerRightIR filtered distance: 11253
+13:19:07.177 -> Left ToF range: 858	status: range valid	peak signal: 5.98	ambient: 0.64
+13:19:07.177 -> Right ToF range: 874	status: range valid	peak signal: 4.80	ambient: 1.12
+13:19:07.177 -> Status: READY
+13:19:07.177 -> Data: 59 59 76 00 F3 0B 20 0A 50
+13:19:07.177 -> Left lidar Dist: 118
+13:19:07.287 -> 
+13:19:07.287 -> 
+13:19:07.363 -> 255,2,252,=FF,2,FC,FD => Ultrasonic Distance = 76
+13:19:07.402 -> upperLeftIR filtered distance: 2061
+13:19:07.435 -> lowerLeftIR filtered distance: 7218
+13:19:07.435 -> upperRightIR filtered distance: 15100
+13:19:07.435 -> lowerRightIR filtered distance: 11669
+13:19:07.435 -> Left ToF range: 861	status: range valid	peak signal: 6.10	ambient: 0.61
+13:19:07.435 -> Right ToF range: 878	status: range valid	peak signal: 4.91	ambient: 1.09
+13:19:07.435 -> Status: READY
+13:19:07.435 -> Data: 59 59 77 00 F1 0B 20 0A 4F
+13:19:07.435 -> Left lidar Dist: 119
+13:19:07.539 -> 
+13:19:07.539 -> 
+13:19:07.611 -> Ultrasonic Distance = 76
+13:19:07.683 -> upperLeftIR filtered distance: 2038
+13:19:07.683 -> lowerLeftIR filtered distance: 7218
+13:19:07.683 -> upperRightIR filtered distance: 15100
+13:19:07.683 -> lowerRightIR filtered distance: 12118
+13:19:07.683 -> Left ToF range: 860	status: range valid	peak signal: 5.97	ambient: 0.61
+13:19:07.683 -> Right ToF range: 886	status: range valid	peak signal: 4.95	ambient: 1.09
+13:19:07.683 -> Status: READY
+13:19:07.683 -> Data: 59 59 76 00 ED 0B 20 0A 4A
+13:19:07.683 -> Left lidar Dist: 118
+13:19:07.759 -> 
+13:19:07.759 -> 
+13:19:07.872 -> Ultrasonic Distance = 76
+13:19:07.910 -> upperLeftIR filtered distance: 2038
+13:19:07.910 -> lowerLeftIR filtered distance: 7163
+13:19:07.943 -> upperRightIR filtered distance: 15100
+13:19:07.943 -> lowerRightIR filtered distance: 12436
+13:19:07.943 -> Left ToF range: 860	status: range valid	peak signal: 5.99	ambient: 0.63
+13:19:07.943 -> Right ToF range: 881	status: range valid	peak signal: 5.45	ambient: 1.02
+13:19:07.943 -> Status: READY
+13:19:07.943 -> Data: 59 59 77 00 25 0E 18 0A 7E
+13:19:07.943 -> Left lidar Dist: 119
+13:19:08.015 -> 
+13:19:08.015 -> 
+13:19:08.130 -> Ultrasonic Distance = 76
+13:19:08.168 -> upperLeftIR filtered distance: 2038
+13:19:08.168 -> lowerLeftIR filtered distance: 7110
+13:19:08.168 -> upperRightIR filtered distance: 15100
+13:19:08.168 -> lowerRightIR filtered distance: 11389
+13:19:08.206 -> Left ToF range: 860	status: range valid	peak signal: 5.89	ambient: 0.63
+13:19:08.206 -> Right ToF range: 883	status: range valid	peak signal: 4.98	ambient: 1.08
+13:19:08.206 -> Status: READY
+13:19:08.206 -> Data: 59 59 77 00 EF 0B 20 0A 4D
+13:19:08.206 -> Left lidar Dist: 119
+13:19:08.272 -> 
+13:19:08.272 -> 
+13:19:08.379 -> Ultrasonic Distance = 76
+13:19:08.417 -> upperLeftIR filtered distance: 2038
+13:19:08.417 -> lowerLeftIR filtered distance: 7056
+13:19:08.417 -> upperRightIR filtered distance: 15100
+13:19:08.455 -> lowerRightIR filtered distance: 12118
+13:19:08.455 -> Left ToF range: 862	status: range valid	peak signal: 6.25	ambient: 0.59
+13:19:08.455 -> Right ToF range: 877	status: range valid	peak signal: 4.99	ambient: 1.07
+13:19:08.455 -> Status: READY
+13:19:08.455 -> Data: 59 59 77 00 18 0E 18 0A 71
+13:19:08.455 -> Left lidar Dist: 119
+13:19:08.531 -> 
+13:19:08.531 -> 
+13:19:08.645 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:08.678 -> upperLeftIR filtered distance: 2017
+13:19:08.678 -> lowerLeftIR filtered distance: 7056
+13:19:08.678 -> upperRightIR filtered distance: 15100
+13:19:08.678 -> lowerRightIR filtered distance: 12772
+13:19:08.678 -> Left ToF range: 858	status: range valid	peak signal: 6.02	ambient: 0.60
+13:19:08.716 -> Right ToF range: 878	status: range valid	peak signal: 5.13	ambient: 1.05
+13:19:08.716 -> Status: READY
+13:19:08.716 -> Data: 59 59 76 00 ED 0B 20 0A 4A
+13:19:08.716 -> Left lidar Dist: 118
+13:19:08.792 -> 
+13:19:08.792 -> 
+13:19:08.901 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:08.939 -> upperLeftIR filtered distance: 2017
+13:19:08.939 -> lowerLeftIR filtered distance: 7056
+13:19:08.939 -> upperRightIR filtered distance: 15100
+13:19:08.939 -> lowerRightIR filtered distance: 11121
+13:19:08.939 -> Left ToF range: 860	status: range valid	peak signal: 6.14	ambient: 0.60
+13:19:08.939 -> Right ToF range: 875	status: range valid	peak signal: 4.68	ambient: 1.09
+13:19:08.973 -> Status: READY
+13:19:08.973 -> Data: 59 59 77 00 2B 0E 18 0A 84
+13:19:08.973 -> Left lidar Dist: 119
+13:19:09.044 -> 
+13:19:09.044 -> 
+13:19:09.150 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:09.188 -> upperLeftIR filtered distance: 2000
+13:19:09.188 -> lowerLeftIR filtered distance: 7056
+13:19:09.188 -> upperRightIR filtered distance: 15100
+13:19:09.188 -> lowerRightIR filtered distance: 10057
+13:19:09.188 -> Left ToF range: 858	status: range valid	peak signal: 6.05	ambient: 0.59
+13:19:09.223 -> Right ToF range: 869	status: range valid	peak signal: 4.80	ambient: 1.09
+13:19:09.223 -> Status: READY
+13:19:09.223 -> Data: 59 59 77 00 26 0E 18 0A 7F
+13:19:09.223 -> Left lidar Dist: 119
+13:19:09.294 -> 
+13:19:09.294 -> 
+13:19:09.406 -> Ultrasonic Distance = 76
+13:19:09.449 -> upperLeftIR filtered distance: 2000
+13:19:09.449 -> lowerLeftIR filtered distance: 7110
+13:19:09.449 -> upperRightIR filtered distance: 15100
+13:19:09.449 -> lowerRightIR filtered distance: 10742
+13:19:09.449 -> Left ToF range: 857	status: range valid	peak signal: 5.88	ambient: 0.62
+13:19:09.449 -> Right ToF range: 878	status: range valid	peak signal: 5.06	ambient: 1.05
+13:19:09.486 -> Status: READY
+13:19:09.486 -> Data: 59 59 77 00 F0 0B 20 0A 4E
+13:19:09.486 -> Left lidar Dist: 119
+13:19:09.557 -> 
+13:19:09.557 -> 
+13:19:09.627 -> Ultrasonic Distance = 76
+13:19:09.705 -> upperLeftIR filtered distance: 2000
+13:19:09.705 -> lowerLeftIR filtered distance: 7056
+13:19:09.705 -> upperRightIR filtered distance: 15100
+13:19:09.705 -> lowerRightIR filtered distance: 11121
+13:19:09.705 -> Left ToF range: 855	status: range valid	peak signal: 5.93	ambient: 0.63
+13:19:09.705 -> Right ToF range: 872	status: range valid	peak signal: 5.05	ambient: 1.07
+13:19:09.705 -> Status: READY
+13:19:09.705 -> Data: 59 59 77 00 1A 0E 18 0A 73
+13:19:09.739 -> Left lidar Dist: 119
+13:19:09.810 -> 
+13:19:09.810 -> 
+13:19:09.882 -> Ultrasonic Distance = 76
+13:19:09.951 -> upperLeftIR filtered distance: 1900
+13:19:09.951 -> lowerLeftIR filtered distance: 7056
+13:19:09.951 -> upperRightIR filtered distance: 15100
+13:19:09.951 -> lowerRightIR filtered distance: 11253
+13:19:09.951 -> Left ToF range: 859	status: range valid	peak signal: 5.84	ambient: 0.61
+13:19:09.951 -> Right ToF range: 875	status: range valid	peak signal: 4.48	ambient: 1.11
+13:19:09.989 -> Status: READY
+13:19:09.989 -> Data: 59 59 77 00 21 0E 18 0A 7A
+13:19:09.989 -> Left lidar Dist: 119
+13:19:10.065 -> 
+13:19:10.065 -> 
+13:19:10.141 -> Ultrasonic Distance = 76
+13:19:10.213 -> upperLeftIR filtered distance: 2004
+13:19:10.213 -> lowerLeftIR filtered distance: 7110
+13:19:10.213 -> upperRightIR filtered distance: 3639
+13:19:10.213 -> lowerRightIR filtered distance: 10503
+13:19:10.213 -> Left ToF range: 865	status: range valid	peak signal: 6.13	ambient: 0.59
+13:19:10.213 -> Right ToF range: 875	status: range valid	peak signal: 4.75	ambient: 1.10
+13:19:10.213 -> Status: READY
+13:19:10.213 -> Data: 59 59 76 00 EE 0B 20 0A 4B
+13:19:10.213 -> Left lidar Dist: 118
+13:19:10.289 -> 
+13:19:10.289 -> 
+13:19:10.399 -> Ultrasonic Distance = 76
+13:19:10.437 -> upperLeftIR filtered distance: 2004
+13:19:10.471 -> lowerLeftIR filtered distance: 7163
+13:19:10.471 -> upperRightIR filtered distance: 15100
+13:19:10.471 -> lowerRightIR filtered distance: 9951
+13:19:10.471 -> Left ToF range: 854	status: range valid	peak signal: 6.20	ambient: 0.61
+13:19:10.471 -> Right ToF range: 877	status: range valid	peak signal: 5.37	ambient: 1.03
+13:19:10.471 -> Status: READY
+13:19:10.471 -> Data: 59 59 77 00 2B 0E 18 0A 84
+13:19:10.471 -> Left lidar Dist: 119
+13:19:10.547 -> 
+13:19:10.547 -> 
+13:19:10.657 -> 255,2,249,=FF,2,F9,FA => Ultrasonic Distance = 76
+13:19:10.695 -> upperLeftIR filtered distance: 2004
+13:19:10.695 -> lowerLeftIR filtered distance: 7218
+13:19:10.695 -> upperRightIR filtered distance: 15100
+13:19:10.729 -> lowerRightIR filtered distance: 11253
+13:19:10.729 -> Left ToF range: 862	status: range valid	peak signal: 6.38	ambient: 0.59
+13:19:10.729 -> Right ToF range: 879	status: range valid	peak signal: 4.84	ambient: 1.09
+13:19:10.729 -> Status: READY
+13:19:10.729 -> Data: 59 59 77 00 F4 0B 20 0A 52
+13:19:10.729 -> Left lidar Dist: 119
+13:19:10.805 -> 
+13:19:10.805 -> 
+13:19:10.919 -> 255,2,249,=FF,2,F9,FA => Ultrasonic Distance = 76
+13:19:10.952 -> upperLeftIR filtered distance: 2004
+13:19:10.952 -> lowerLeftIR filtered distance: 7273
+13:19:10.952 -> upperRightIR filtered distance: 15100
+13:19:10.952 -> lowerRightIR filtered distance: 10165
+13:19:10.990 -> Left ToF range: 862	status: range valid	peak signal: 6.17	ambient: 0.59
+13:19:10.990 -> Right ToF range: 876	status: range valid	peak signal: 5.10	ambient: 1.06
+13:19:10.990 -> Status: READY
+13:19:10.990 -> Data: 59 59 77 00 22 0E 18 0A 7B
+13:19:10.990 -> Left lidar Dist: 119
+13:19:11.062 -> 
+13:19:11.062 -> 
+13:19:11.172 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:11.205 -> upperLeftIR filtered distance: 2021
+13:19:11.205 -> lowerLeftIR filtered distance: 7273
+13:19:11.205 -> upperRightIR filtered distance: 15100
+13:19:11.205 -> lowerRightIR filtered distance: 9179
+13:19:11.238 -> Left ToF range: 863	status: range valid	peak signal: 5.84	ambient: 0.63
+13:19:11.238 -> Right ToF range: 886	status: range valid	peak signal: 5.26	ambient: 1.05
+13:19:11.238 -> Status: READY
+13:19:11.238 -> Data: 59 59 77 00 26 0E 18 0A 7F
+13:19:11.238 -> Left lidar Dist: 119
+13:19:11.314 -> 
+13:19:11.314 -> 
+13:19:11.419 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:11.457 -> upperLeftIR filtered distance: 2004
+13:19:11.457 -> lowerLeftIR filtered distance: 7330
+13:19:11.457 -> upperRightIR filtered distance: 15100
+13:19:11.495 -> lowerRightIR filtered distance: 10057
+13:19:11.495 -> Left ToF range: 860	status: range valid	peak signal: 5.95	ambient: 0.62
+13:19:11.495 -> Right ToF range: 874	status: range valid	peak signal: 5.43	ambient: 1.03
+13:19:11.495 -> Status: READY
+13:19:11.495 -> Data: 59 59 76 00 F2 0B 20 0A 4F
+13:19:11.495 -> Left lidar Dist: 118
+13:19:11.566 -> 
+13:19:11.566 -> 
+13:19:11.669 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:11.702 -> upperLeftIR filtered distance: 2021
+13:19:11.736 -> lowerLeftIR filtered distance: 7330
+13:19:11.736 -> upperRightIR filtered distance: 15100
+13:19:11.736 -> lowerRightIR filtered distance: 10275
+13:19:11.736 -> Left ToF range: 868	status: range valid	peak signal: 6.23	ambient: 0.59
+13:19:11.736 -> Right ToF range: 878	status: range valid	peak signal: 4.86	ambient: 1.09
+13:19:11.736 -> Status: READY
+13:19:11.736 -> Data: 59 59 77 00 1D 0E 18 0A 76
+13:19:11.736 -> Left lidar Dist: 119
+13:19:11.812 -> 
+13:19:11.812 -> 
+13:19:11.923 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:11.956 -> upperLeftIR filtered distance: 2021
+13:19:11.994 -> lowerLeftIR filtered distance: 7273
+13:19:11.994 -> upperRightIR filtered distance: 15100
+13:19:11.994 -> lowerRightIR filtered distance: 9951
+13:19:11.994 -> Left ToF range: 867	status: range valid	peak signal: 5.96	ambient: 0.61
+13:19:11.994 -> Right ToF range: 875	status: range valid	peak signal: 5.38	ambient: 1.04
+13:19:11.994 -> Status: READY
+13:19:11.994 -> Data: 59 59 77 00 24 0E 18 0A 7D
+13:19:11.994 -> Left lidar Dist: 119
+13:19:12.071 -> 
+13:19:12.071 -> 
+13:19:12.181 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:12.215 -> upperLeftIR filtered distance: 2021
+13:19:12.215 -> lowerLeftIR filtered distance: 7330
+13:19:12.215 -> upperRightIR filtered distance: 15100
+13:19:12.253 -> lowerRightIR filtered distance: 9951
+13:19:12.253 -> Left ToF range: 869	status: range valid	peak signal: 5.96	ambient: 0.62
+13:19:12.253 -> Right ToF range: 871	status: range valid	peak signal: 5.09	ambient: 1.06
+13:19:12.253 -> Status: READY
+13:19:12.253 -> Data: 59 59 77 00 23 0E 18 0A 7C
+13:19:12.253 -> Left lidar Dist: 119
+13:19:12.329 -> 
+13:19:12.329 -> 
+13:19:12.438 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:12.476 -> upperLeftIR filtered distance: 2038
+13:19:12.476 -> lowerLeftIR filtered distance: 7387
+13:19:12.476 -> upperRightIR filtered distance: 15100
+13:19:12.476 -> lowerRightIR filtered distance: 9746
+13:19:12.476 -> Left ToF range: 860	status: range valid	peak signal: 6.21	ambient: 0.59
+13:19:12.514 -> Right ToF range: 874	status: range valid	peak signal: 4.93	ambient: 1.08
+13:19:12.514 -> Status: READY
+13:19:12.514 -> Data: 59 59 77 00 24 0E 18 0A 7D
+13:19:12.514 -> Left lidar Dist: 119
+13:19:12.590 -> 
+13:19:12.590 -> 
+13:19:12.704 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:12.742 -> upperLeftIR filtered distance: 2038
+13:19:12.742 -> lowerLeftIR filtered distance: 7330
+13:19:12.742 -> upperRightIR filtered distance: 15100
+13:19:12.742 -> lowerRightIR filtered distance: 10388
+13:19:12.742 -> Left ToF range: 856	status: range valid	peak signal: 6.23	ambient: 0.59
+13:19:12.742 -> Right ToF range: 875	status: range valid	peak signal: 4.70	ambient: 1.09
+13:19:12.780 -> Status: READY
+13:19:12.780 -> Data: 59 59 77 00 F0 0B 20 0A 4E
+13:19:12.780 -> Left lidar Dist: 119
+13:19:12.856 -> 
+13:19:12.856 -> 
+13:19:12.932 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:13.002 -> upperLeftIR filtered distance: 2038
+13:19:13.002 -> lowerLeftIR filtered distance: 7218
+13:19:13.002 -> upperRightIR filtered distance: 3639
+13:19:13.002 -> lowerRightIR filtered distance: 11253
+13:19:13.002 -> Left ToF range: 866	status: range valid	peak signal: 6.20	ambient: 0.60
+13:19:13.002 -> Right ToF range: 878	status: range valid	peak signal: 5.05	ambient: 1.05
+13:19:13.002 -> Status: CHECKSUM
+13:19:13.002 -> Data: 59 59 77 00 07 01 91 00 DF
+13:19:13.040 -> Status: CHECKSUM
+13:19:13.040 -> Data: 59 59 77 00 2A 0A 08 0A DF
+13:19:13.040 -> Status: CHECKSUM
+13:19:13.040 -> Data: 59 59 77 00 03 01 24 EC 0B
+13:19:13.040 -> Status: CHECKSUM
+13:19:13.040 -> Data: 59 59 77 00 21 04 18 00 76
+13:19:13.040 -> Status: CHECKSUM
+13:19:13.040 -> Data: 59 59 77 00 01 08 10 00 74
+13:19:13.074 -> Status: CHECKSUM
+13:19:13.074 -> Data: 59 59 77 00 20 0C 00 CF 08
+13:19:13.074 -> Status: CHECKSUM
+13:19:13.074 -> Data: 59 59 77 00 16 06 18 B7 20
+13:19:13.074 -> Status: CHECKSUM
+13:19:13.074 -> Data: 59 59 77 00 05 41 01 57 08
+13:19:13.074 -> Status: CHECKSUM
+13:19:13.112 -> Data: 59 59 77 00 01 04 00 90 08
+13:19:13.112 -> Status: CHECKSUM
+13:19:13.112 -> Data: 59 59 77 00 01 20 A1 0A 20
+13:19:13.112 -> Status: CHECKSUM
+13:19:13.112 -> Data: 59 59 77 00 20 0C 00 28 20
+13:19:13.112 -> Status: CHECKSUM
+13:19:13.112 -> Data: 59 59 77 00 19 06 00 00 02
+13:19:13.150 -> Status: CHECKSUM
+13:19:13.150 -> Data: 59 59 77 82 00 A0 20 0A 4F
+13:19:13.150 -> Status: CHECKSUM
+13:19:13.150 -> Data: 59 59 37 42 0E 0A 40 52 54
+13:19:13.150 -> Status: CHECKSUM
+13:19:13.150 -> Data: 59 59 57 45 00 A4 20 52 52
+13:19:13.150 -> Status: CHECKSUM
+13:19:13.150 -> Data: 59 59 27 00 08 0A 40 08 52
+13:19:13.184 -> Status: CHECKSUM
+13:19:13.184 -> Data: 59 59 13 34 04 24 20 0A 51
+13:19:13.184 -> Status: CHECKSUM
+13:19:13.184 -> Data: 59 59 65 00 01 00 08 52 56
+13:19:13.184 -> Status: CHECKSUM
+13:19:13.184 -> Data: 59 59 32 00 22 00 10 02 40
+13:19:13.222 -> Status: CHECKSUM
+13:19:13.222 -> Data: 59 59 12 40 00 30 00 20 0A
+13:19:13.222 -> Status: CHECKSUM
+13:19:13.222 -> Data: 59 59 56 00 1D 18 02 52 4F
+13:19:13.451 -> Status: CHECKSUM
+13:19:13.451 -> Data: 59 59 15 17 00 00 08 83 59
+13:19:13.451 -> Status: CHECKSUM
+13:19:13.451 -> Data: 59 59 40 00 76 00 00 0A 10
+13:19:13.496 -> Status: CHECKSUM
+13:19:13.496 -> Data: 59 59 32 C8 00 00 48 28 FF
+13:19:13.496 -> Status: CHECKSUM
+13:19:13.496 -> Data: 59 59 43 00 B0 02 10 08 0A
+13:19:13.496 -> Status: CHECKSUM
+13:19:13.496 -> Data: 59 59 17 00 75 01 00 A4 7D
+13:19:13.496 -> Status: CHECKSUM
+13:19:13.496 -> Data: 59 59 26 00 EA 01 10 08 A4
+13:19:13.528 -> Status: CHECKSUM
+13:19:13.528 -> Data: 59 59 36 52 0A 00 00 A4 7A
+13:19:13.528 -> Status: CHECKSUM
+13:19:13.528 -> Data: 59 59 77 00 52 09 80 18 0A
+13:19:13.528 -> Status: CHECKSUM
+13:19:13.528 -> Data: 59 59 76 00 51 03 00 02 04
+13:19:13.528 -> Status: CHECKSUM
+13:19:13.560 -> Data: 59 59 77 00 60 11 00 81 10
+13:19:13.560 -> Status: CHECKSUM
+13:19:13.560 -> Data: 59 59 77 00 C0 0A 00 21 08
+13:19:13.560 -> Status: CHECKSUM
+13:19:13.560 -> Data: 59 59 77 00 94 01 00 00 04
+13:19:13.560 -> Status: CHECKSUM
+13:19:13.560 -> Data: 59 59 77 00 50 01 00 40 18
+13:19:13.598 -> Status: CHECKSUM
+13:19:13.598 -> Data: 59 59 77 00 94 21 00 70 18
+13:19:13.598 -> Status: CHECKSUM
+13:19:13.598 -> Data: 59 59 77 00 A4 08 20 12 08
+13:19:13.598 -> Status: CHECKSUM
+13:19:13.598 -> Data: 59 59 76 00 51 09 20 00 0C
+13:19:13.598 -> Status: CHECKSUM
+13:19:13.598 -> Data: 59 59 77 00 61 01 00 00 00
+13:19:13.632 -> Status: CHECKSUM
+13:19:13.632 -> Data: 59 59 77 00 C1 05 12 0A 0E
+13:19:13.632 -> Status: CHECKSUM
+13:19:13.632 -> Data: 59 59 76 00 27 0A 20 0A 40
+13:19:13.632 -> Status: CHECKSUM
+13:19:13.632 -> Data: 59 59 77 00 50 01 12 42 0E
+13:19:13.670 -> Status: CHECKSUM
+13:19:13.670 -> Data: 59 59 77 00 74 16 40 0A 22
+13:19:13.670 -> Status: CHECKSUM
+13:19:13.670 -> Data: 59 59 76 00 F1 04 50 00 25
+13:19:13.670 -> Status: CHECKSUM
+13:19:13.670 -> Data: 59 59 77 00 F3 02 20 0A 00
+13:19:13.670 -> Status: CHECKSUM
+13:19:13.670 -> Data: 59 59 77 00 F2 01 20 08 00
+13:19:13.708 -> Status: CHECKSUM
+13:19:13.708 -> Data: 59 59 77 00 F8 0B 14 02 27
+13:19:13.708 -> Status: CHECKSUM
+13:19:13.708 -> Data: 59 59 77 00 FD 0B 20 0A 01
+13:19:13.708 -> Status: CHECKSUM
+13:19:13.708 -> Data: 59 59 77 00 F8 0B 00 16 21
+13:19:13.708 -> Status: CHECKSUM
+13:19:13.708 -> Data: 59 59 77 00 ED 0B 00 02 49
+13:19:13.746 -> Status: CHECKSUM
+13:19:13.746 -> Data: 59 59 76 00 F6 0B 00 08 53
+13:19:13.746 -> Status: CHECKSUM
+13:19:13.746 -> Data: 59 59 77 00 E9 0B 20 00 24
+13:19:13.746 -> Status: CHECKSUM
+13:19:13.746 -> Data: 59 59 76 00 F7 0B 20 00 14
+13:19:13.746 -> Status: CHECKSUM
+13:19:13.784 -> Data: 59 59 77 00 F0 0B 00 00 44
+13:19:13.784 -> Status: CHECKSUM
+13:19:13.784 -> Data: 59 59 77 00 01 0C 00 00 40
+13:19:13.784 -> Status: CHECKSUM
+13:19:13.784 -> Data: 59 59 77 00 F3 0B 20 01 D8
+13:19:13.784 -> Status: CHECKSUM
+13:19:13.784 -> Data: 59 59 77 00 EC 0B 20 08 02
+13:19:13.819 -> Status: CHECKSUM
+13:19:13.819 -> Data: 59 59 76 00 E7 0B 20 00 00
+13:19:13.819 -> Status: CHECKSUM
+13:19:13.819 -> Data: 59 59 77 00 F0 0B 20 00 04
+13:19:13.819 -> Status: CHECKSUM
+13:19:13.819 -> Data: 59 59 77 00 F2 0B 20 0A EA
+13:19:13.819 -> Status: CHECKSUM
+13:19:13.819 -> Data: 59 59 77 00 F3 0B 20 0A 00
+13:19:13.857 -> Status: READY
+13:19:13.857 -> Data: 59 59 77 00 F3 0B 20 0A 51
+13:19:13.857 -> Left lidar Dist: 119
+13:19:13.933 -> 
+13:19:13.933 -> 
+13:19:14.039 -> Ultrasonic Distance = 76
+13:19:14.078 -> upperLeftIR filtered distance: 2038
+13:19:14.078 -> lowerLeftIR filtered distance: 7218
+13:19:14.078 -> upperRightIR filtered distance: 3639
+13:19:14.078 -> lowerRightIR filtered distance: 9951
+13:19:14.078 -> Left ToF range: 855	status: range valid	peak signal: 6.24	ambient: 0.59
+13:19:14.078 -> Right ToF range: 875	status: range valid	peak signal: 4.92	ambient: 1.09
+13:19:14.111 -> Status: CHECKSUM
+13:19:14.111 -> Data: 59 59 77 00 F8 0B 20 59 59
+13:19:14.111 -> Status: READY
+13:19:14.111 -> Data: 59 59 77 00 26 0E 18 0A 7F
+13:19:14.111 -> Left lidar Dist: 119
+13:19:14.185 -> 
+13:19:14.185 -> 
+13:19:14.290 -> Ultrasonic Distance = 76
+13:19:14.328 -> upperLeftIR filtered distance: 2038
+13:19:14.328 -> lowerLeftIR filtered distance: 7110
+13:19:14.328 -> upperRightIR filtered distance: 3639
+13:19:14.328 -> lowerRightIR filtered distance: 10992
+13:19:14.328 -> Left ToF range: 859	status: range valid	peak signal: 6.03	ambient: 0.61
+13:19:14.366 -> Right ToF range: 883	status: range valid	peak signal: 5.16	ambient: 1.05
+13:19:14.366 -> Status: READY
+13:19:14.366 -> Data: 59 59 76 00 F2 0B 20 0A 4F
+13:19:14.366 -> Left lidar Dist: 118
+13:19:14.433 -> 
+13:19:14.433 -> 
+13:19:14.543 -> Ultrasonic Distance = 76
+13:19:14.581 -> upperLeftIR filtered distance: 2038
+13:19:14.581 -> lowerLeftIR filtered distance: 6953
+13:19:14.581 -> upperRightIR filtered distance: 3639
+13:19:14.581 -> lowerRightIR filtered distance: 12436
+13:19:14.581 -> Left ToF range: 861	status: range valid	peak signal: 6.05	ambient: 0.61
+13:19:14.618 -> Right ToF range: 878	status: range valid	peak signal: 5.45	ambient: 1.04
+13:19:14.618 -> Status: READY
+13:19:14.618 -> Data: 59 59 77 00 22 0E 18 0A 7B
+13:19:14.618 -> Left lidar Dist: 119
+13:19:14.690 -> 
+13:19:14.690 -> 
+13:19:14.795 -> Ultrasonic Distance = 76
+13:19:14.833 -> upperLeftIR filtered distance: 2056
+13:19:14.833 -> lowerLeftIR filtered distance: 6803
+13:19:14.833 -> upperRightIR filtered distance: 15100
+13:19:14.833 -> lowerRightIR filtered distance: 11389
+13:19:14.833 -> Left ToF range: 869	status: range valid	peak signal: 6.04	ambient: 0.63
+13:19:14.866 -> Right ToF range: 879	status: range valid	peak signal: 4.84	ambient: 1.09
+13:19:14.866 -> Status: READY
+13:19:14.866 -> Data: 59 59 77 00 F5 0B 20 0A 53
+13:19:14.866 -> Left lidar Dist: 119
+13:19:14.942 -> 
+13:19:14.942 -> 
+13:19:15.056 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:15.094 -> upperLeftIR filtered distance: 2061
+13:19:15.094 -> lowerLeftIR filtered distance: 6706
+13:19:15.094 -> upperRightIR filtered distance: 3639
+13:19:15.094 -> lowerRightIR filtered distance: 11669
+13:19:15.094 -> Left ToF range: 858	status: range valid	peak signal: 6.01	ambient: 0.63
+13:19:15.094 -> Right ToF range: 884	status: range valid	peak signal: 4.72	ambient: 1.10
+13:19:15.132 -> Status: READY
+13:19:15.132 -> Data: 59 59 77 00 22 0E 18 0A 7B
+13:19:15.132 -> Left lidar Dist: 119
+13:19:15.200 -> 
+13:19:15.200 -> 
+13:19:15.276 -> 255,2,253,=FF,2,FD,FE => Ultrasonic Distance = 76
+13:19:15.348 -> upperLeftIR filtered distance: 2061
+13:19:15.348 -> lowerLeftIR filtered distance: 6706
+13:19:15.348 -> upperRightIR filtered distance: 3639
+13:19:15.348 -> lowerRightIR filtered distance: 11965
+13:19:15.348 -> Left ToF range: 860	status: range valid	peak signal: 6.08	ambient: 0.62
+13:19:15.348 -> Right ToF range: 873	status: range valid	peak signal: 4.94	ambient: 1.09
+13:19:15.382 -> Status: READY
+13:19:15.382 -> Data: 59 59 77 00 FB 0B 20 0A 59
+13:19:15.382 -> Left lidar Dist: 119
+13:19:15.453 -> 
+13:19:15.453 -> 
+13:19:15.563 -> Ultrasonic Distance = 76
+13:19:15.597 -> upperLeftIR filtered distance: 2061
+13:19:15.597 -> lowerLeftIR filtered distance: 6754
+13:19:15.597 -> upperRightIR filtered distance: 3639
+13:19:15.597 -> lowerRightIR filtered distance: 12602
+13:19:15.597 -> Left ToF range: 862	status: range valid	peak signal: 6.20	ambient: 0.60
+13:19:15.597 -> Right ToF range: 871	status: range valid	peak signal: 4.93	ambient: 1.08
+13:19:15.635 -> Status: READY
+13:19:15.635 -> Data: 59 59 76 00 F4 0B 20 0A 51
+13:19:15.635 -> Left lidar Dist: 118
+13:19:15.707 -> 
+13:19:15.707 -> 
+13:19:15.779 -> Ultrasonic Distance = 76
+13:19:15.851 -> upperLeftIR filtered distance: 2061
+13:19:15.851 -> lowerLeftIR filtered distance: 6803
+13:19:15.851 -> upperRightIR filtered distance: 3639
+13:19:15.851 -> lowerRightIR filtered distance: 13311
+13:19:15.851 -> Left ToF range: 857	status: range valid	peak signal: 6.28	ambient: 0.60
+13:19:15.851 -> Right ToF range: 880	status: range valid	peak signal: 5.36	ambient: 1.05
+13:19:15.885 -> Status: READY
+13:19:15.885 -> Data: 59 59 77 00 F1 0B 20 0A 4F
+13:19:15.885 -> Left lidar Dist: 119
