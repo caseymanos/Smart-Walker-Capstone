@@ -11,24 +11,6 @@
 #include <SharpIR.h>
 #include <TFMPlus.h>
 
-// OBJECT DETECTION VALUES
-  /* Change min and max distances to arrays corresponding with each dist array value
-  ie minDist[2] = min dist for upper ir
-  */
-  int minDist[] = {60,40,60,60,70};
-  minDist[0]=60; // Ultrasonic
-  minDist[1]=40; // ToF
-  minDist[2]=60; // Upper Ir
-  minDist[3]=60; // Lower IR
-  minDist[4]=70; // Lidar 
-
-  int maxDist[5];
-  maxDist[0]=90; // Ultrasonic
-  maxDist[1]=80; // ToF
-  maxDist[2]=120; // Upper IR
-  maxDist[3]=90; // Lower IR
-  maxDist[4]=120; // Lidar
-
   const bool leftObjectDetected = false;
   const bool rightObjectDetected = false;
 // MOTOR VALUES
@@ -111,6 +93,18 @@
   int minDist[5];
   int maxDist[5];
 void setup() {
+  minDist[0]=60; // Ultrasonic
+  minDist[1]=40; // ToF
+  minDist[2]=60; // Upper Ir
+  minDist[3]=60; // Lower IR
+  minDist[4]=70; // Lidar 
+  
+  maxDist[0]=90; // Ultrasonic
+  maxDist[1]=75; // ToF
+  maxDist[2]=120; // Upper IR
+  maxDist[3]=90; // Lower IR
+  maxDist[4]=120; // Lidar
+
   // serial monitor initialization
   Serial.begin(115200);
  // Serial.println("Beginning overall setup");
@@ -258,20 +252,20 @@ void ultrasonicSensorCall() {
   rightDistances[2] = upperRightIrDist;
   rightDistances[3] = lowerRightIrDist;
   
-  Serial.print("upperLeftIR filtered distance: ");  // returns it to the serial monitor
-  Serial.println(upperLeftIrDist);
+//  Serial.print("upperLeftIR filtered distance: ");  // returns it to the serial monitor
+//  Serial.println(upperLeftIrDist);
 //  Serial.print("\t");
 
-  Serial.print("lowerLeftIR filtered distance: ");  // returns it to the serial monitor
-  Serial.println(lowerLeftIrDist);
+//  Serial.print("lowerLeftIR filtered distance: ");  // returns it to the serial monitor
+//  Serial.println(lowerLeftIrDist);
 //  Serial.print("\t");
   
-  Serial.print("upperRightIR filtered distance: ");  // returns it to the serial monitor
-  Serial.println(upperRightIrDist);
+//  Serial.print("upperRightIR filtered distance: ");  // returns it to the serial monitor
+//  Serial.println(upperRightIrDist);
 //  Serial.print("\t");
   
-  Serial.print("lowerRightIR filtered distance: ");  // returns it to the serial monitor
-  Serial.println(lowerRightIrDist);
+//  Serial.print("lowerRightIR filtered distance: ");  // returns it to the serial monitor
+//  Serial.println(lowerRightIrDist);
 //  Serial.print("\t");
  }
 
@@ -281,9 +275,9 @@ void ultrasonicSensorCall() {
 void ToFSensorCalls(int &tofIndex, int &leftTofAverage, int &leftTofSum, int leftTofReadings[5]){
   //Left sensor call
   leftTof.read();
-  Serial.print("Left ToF range: ");
-  Serial.print(leftTof.ranging_data.range_mm/10);
-  Serial.print ("\t");
+//  Serial.print("Left ToF range: ");
+//  Serial.print(leftTof.ranging_data.range_mm/10);
+//  Serial.print ("\t");
   leftDistances[1] = (leftTof.ranging_data.range_mm)/10;
 
   leftTofSum = leftTofSum - leftToFReadings[tofIndex];
@@ -293,8 +287,8 @@ void ToFSensorCalls(int &tofIndex, int &leftTofAverage, int &leftTofSum, int lef
   leftTofAverage = leftTofSum / 10;
     
   rightTof.read();
-  Serial.print("Right ToF range: ");
-  Serial.println(rightTof.ranging_data.range_mm/10);
+//  Serial.print("Right ToF range: ");
+//  Serial.println(rightTof.ranging_data.range_mm/10);
   rightDistances[1] = (rightTof.ranging_data.range_mm)/10;
 }
 
@@ -311,8 +305,8 @@ int16_t lidarRightTemp = 0;
 
   if( leftLidar.getData( lidarLeftDist, lidarLeftFlux, lidarLeftTemp)) // Get data from the device.
       {
-        Serial.print( "Left Lidar Dist: ");
-        Serial.println(lidarLeftDist); // display distance,
+//        Serial.print( "Left Lidar Dist: ");
+//        Serial.println(lidarLeftDist); // display distance,
 //        Serial.print("\t");
         leftDistances[4] = lidarLeftDist; // add distance to main array
       }
@@ -323,8 +317,8 @@ int16_t lidarRightTemp = 0;
 
   if( rightLidar.getData( lidarRightDist, lidarRightFlux, lidarRightTemp)) // Get data from the device.
       {
-       Serial.print( "Right Lidar Dist: ");
-       Serial.println(lidarRightDist); // display distance,
+//       Serial.print( "Right Lidar Dist: ");
+//       Serial.println(lidarRightDist); // display distance,
        rightDistances[4] = lidarRightDist;
       }
       else                  // If the command fails...
@@ -341,7 +335,8 @@ void objectDetection(int leftDistances[], int rightDistances[]){
    *  index 3 = Lower IR
    *  index 4 = Lidar
   */
-
+//  Serial.println("Distance between ToF Motors: ");
+//  Serial.println(rightDistances[1]-leftDistances[1]);
 //  // print statements for debugging
 //  for (int i; i<5; i++){
 //    Serial.print("Index "+i);
@@ -355,41 +350,45 @@ void objectDetection(int leftDistances[], int rightDistances[]){
   int tempPower = 0;
   leftPower=0;
   rightPower=0;
-  for (int j; j<5; j++){
+  for (int j =0; j<5; j++){
     // Test distances against preset arrays to 
     if (leftDistances[j] > minDist[j] && leftDistances[j] < maxDist[j]) {
-      Serial.print("****************************");
       tempPower = map(leftDistances[j],maxDist[j],minDist[j],1,255);
       if (tempPower > leftPower) {
         leftPower = tempPower;
+      Serial.print("left ");
+      Serial.print(j);
+      Serial.print(" is causing motor to turn on ");
       }
     }
     if (rightDistances[j] > minDist[j] && rightDistances[j] < maxDist[j]) {
-      Serial.print("****************************");
       tempPower = map(rightDistances[j],maxDist[j],minDist[j],1,255);
       if (tempPower > rightPower) {
+      Serial.print("right ");
+      Serial.print(j);
+      Serial.print(" is causing motor to turn on ");
         rightPower = tempPower;
         }
       }
   }
-  if (leftDistances[2] > minDist[2] && leftDistances[2] < maxDist[2]){
-    lFlag = true;
-  }
-   if (rFlag = rightDistances[2] > minDist[2] && rightDistances[2] < maxDist[2]){
-    rFlag = true;
-   }
-   
-   /* Hallway detection: if object was detected from right or left and no longer was, set trigger to beep twice
-    *  
-    */
-   if (leftDistances[2]> maxDist[2] && lFlag) {
-     lHall = true;
-     lFlag = false;
-   }
-   if (rightDistances[2] > maxDist[2]){
-     rHall = true;
-     rFlag = false;
-   }
+//  if (leftDistances[2] > minDist[2] && leftDistances[2] < maxDist[2]){
+//    lFlag = true;
+//  }
+//   if (rFlag = rightDistances[2] > minDist[2] && rightDistances[2] < maxDist[2]){
+//    rFlag = true;
+//   }
+//   
+//   /* Hallway detection: if object was detected from right or left and no longer was, set trigger to beep twice
+//    *  
+//    */
+//   if (leftDistances[2]> maxDist[2] && lFlag) {
+//     lHall = true;
+//     lFlag = false;
+//   }
+//   if (rightDistances[2] > maxDist[2]){
+//     rHall = true;
+//     rFlag = false;
+//   }
 }
 
 // in this function output from the left motor is produced based on objectDetection()
