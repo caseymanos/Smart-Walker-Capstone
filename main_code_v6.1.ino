@@ -30,16 +30,24 @@
       unsigned long ultraPrevTime = 0;
       const int ultraPd = 100;
       
-    // TIME OF FLIGHT VALUES
-      // declare 2 tof sensors
-      VL53L1X leftTof;
-      VL53L1X rightTof;
-      // left and right Tof distances (in mm)
-      int ToFArray[2];
-      int tofIndex = 0;
-      int leftTofAverage = 0;
-      int leftTofSum = 0;
-      int leftToFReadings[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+ // TIME OF FLIGHT VALUES
+  // declare 2 tof sensors
+  VL53L1X leftTof;
+  VL53L1X rightTof;
+  // left and right Tof distances (in mm)
+ #define WINDOW_SIZE 10
+  int ToFArray[2];
+
+  // values for tof moving averages
+  int leftTofIndex = 0;
+  int leftTofAverage = 0;
+  int leftTofSum = 0;
+  int leftTofReadings[WINDOW_SIZE];
+
+  int rightTofIndex = 0;
+  int rightTofAverage = 0;
+  int rightTofSum = 0;
+  int rightTofReadings[WINDOW_SIZE];
     
     // INFRARED SENSOR VALUES
       // define left and right sensors for the upper and lower pairs
@@ -175,7 +183,7 @@
       if ((unsigned long)(millis() - irPrevTime) >= irPd){
         infraredSensorCall();
       }
-        ToFSensorCalls(tofIndex, leftTofAverage, leftTofSum, leftToFReadings);
+         ToFSensorCalls();
         lidarSensorCall();
         
     //    Serial.print(leftTofAverage);
@@ -269,29 +277,25 @@
     //  Serial.print("\t");
      }
     
-    
-    // ToF Sensor Call
-    //Places cm distances of L and R tof arrays in main dist array
-    void ToFSensorCalls(int &tofIndex, int &leftTofAverage, int &leftTofSum, int leftTofReadings[5]){
-      //Left sensor call
-      leftTof.read();
-    //  Serial.print("Left ToF range: ");
-    //  Serial.print(leftTof.ranging_data.range_mm/10);
-    //  Serial.print ("\t");
-      leftDistances[1] = (leftTof.ranging_data.range_mm)/10;
-    
-      leftTofSum = leftTofSum - leftToFReadings[tofIndex];
-      leftToFReadings[tofIndex] = leftDistances[1];
-      leftTofSum = leftTofSum + leftDistances[1];
-      tofIndex = (tofIndex + 1) % 10;
-      leftTofAverage = leftTofSum / 10;
-        
-      rightTof.read();
-    //  Serial.print("Right ToF range: ");
-    //  Serial.println(rightTof.ranging_data.range_mm/10);
-      rightDistances[1] = (rightTof.ranging_data.range_mm)/10;
-    }
-    
+// ToF Sensor Call
+//Places cm distances of L and R tof arrays in main dist array
+void ToFSensorCalls(){
+  //Left sensor call
+  leftTof.read();
+  leftDistances[1] = movingAverage(leftTofIndex, leftTofAverage, leftTofSum, (leftTof.ranging_data.range_mm)/10, leftTofReadings, WINDOW_SIZE);
+ 
+  rightTof.read();
+  rightDistances[1] = movingAverage(rightTofIndex, rightTofAverage, rightTofSum, (rightTof.ranging_data.range_mm)/10, rightTofReadings, WINDOW_SIZE);
+}
+
+int movingAverage(int &index, int &average, int &sum, int value, int readings[], int wSize){
+  sum = sum - readings[index];
+  readings[index] = value;
+  sum = sum + value;
+  index = (index + 1) % wSize;
+  average = sum / wSize;
+  return average;
+}
     
      void lidarSensorCall() {
       
