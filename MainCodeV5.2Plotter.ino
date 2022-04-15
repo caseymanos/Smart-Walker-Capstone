@@ -246,10 +246,10 @@ void ultrasonicSensorCall() {
 void ToFSensorCalls(){
   //Left sensor call
   leftTof.read();
-  leftDistances[1] = (leftTofIndex, leftTofAverage, leftTofSum, (leftTof.ranging_data.range_mm)/10, leftTofReadings, WINDOW_SIZE);
+  leftDistances[1] = movingAverage(leftTofIndex, leftTofAverage, leftTofSum, (leftTof.ranging_data.range_mm)/10, leftTofReadings, WINDOW_SIZE);
  
   rightTof.read();
-  rightDistances[1] = (rightTofIndex, rightTofAverage, rightTofSum, (rightTof.ranging_data.range_mm)/10, rightTofReadings, WINDOW_SIZE);
+  rightDistances[1] = movingAverage(rightTofIndex, rightTofAverage, rightTofSum, (rightTof.ranging_data.range_mm)/10, rightTofReadings, WINDOW_SIZE);
 }
 
 int movingAverage(int &index, int &average, int &sum, int value, int readings[], int wSize){
