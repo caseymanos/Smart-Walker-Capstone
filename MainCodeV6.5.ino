@@ -17,8 +17,11 @@
 /* Change min and max distances to arrays corresponding with each dist array value
   ie minDist[2] = min dist for upper ir
 */
-int minDist[5] = {56, 89, 54, 54, 90};
-int maxDist[5] = {84, 95, 133, 75, 117};
+//int minDist[5] = {56,73,73,54,54,90};
+//int maxDist[5] = {84,93,99,133,75, 117};
+
+int minDist[5] = {56,73,54,54,90};
+int maxDist[5] = {84,99,133,75, 117};
 
 const bool leftObjectDetected = false;
 const bool rightObjectDetected = false;
@@ -308,9 +311,6 @@ void ToFSensorCalls() {
   //Left sensor call
   leftTof.read();
   leftDistances[1] = movingAverage(leftTofIndex, leftTofAverage, leftTofSum, (leftTof.ranging_data.range_mm) / 10, leftTofReadings, WINDOW_SIZE);
-  if (leftDistances[1] >= 89){
-    leftDistances[1] +=10;
-  }
 
   rightTof.read();
   rightDistances[1] = movingAverage(rightTofIndex, rightTofAverage, rightTofSum, (rightTof.ranging_data.range_mm) / 10, rightTofReadings, WINDOW_SIZE);
@@ -363,7 +363,7 @@ void objectDetection(int leftDistances[], int rightDistances[]) {
   rightPower = 0;
   for (int j = 0; j < 5; j++) {
     // Test distances against preset arrays to
-    if (leftDistances[j] > minDist[j] && leftDistances[j] < maxDist[j] && j != 2) {
+    if ((leftDistances[j] > minDist[j] && leftDistances[j] < maxDist[j] && j != 3) || (j==1 && (leftDistances[j] > minDist[j] && leftDistances[j] < maxDist[j] + 6)) {
       tempPower = map(leftDistances[j], maxDist[j], minDist[j], 140, 255);
       if (tempPower > leftPower) {
         leftPower = tempPower;
@@ -371,7 +371,7 @@ void objectDetection(int leftDistances[], int rightDistances[]) {
                 Serial.println(j);
       }
     }
-    if (rightDistances[j] > minDist[j] && rightDistances[j] < maxDist[j] && j != 2) {
+    if (rightDistances[j] > minDist[j] && rightDistances[j] < maxDist[j] && j != 3) {
       tempPower = map(rightDistances[j], maxDist[j], minDist[j], 140, 255);
       if (tempPower > rightPower) {
         rightPower = tempPower;
